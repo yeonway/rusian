@@ -1,8 +1,0 @@
-{
-  "schemaVersion": 2,
-  "datasetVersion": "2026.04.26-custom001",
-  "minAppVersion": "1.0.0",
-  "contentPackUrl": "https://raw.githubusercontent.com/yeonway/rusian/main/content-pack.json",
-  "sha256": "5D3F4EA4EC278041A376622F79B43A6AA06822999D9B112CE62F9A4482DACD37",
-  "publishedAt": "2026-04-26T00:00:00+09:00"
-}
