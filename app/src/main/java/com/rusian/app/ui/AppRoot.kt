@@ -1,6 +1,8 @@
 ﻿package com.rusian.app.ui
 
+import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.size
 import androidx.compose.material3.Icon
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.NavigationBar
@@ -59,6 +61,7 @@ fun AppRoot(
         bottomBar = {
             if (showBottomBar) {
                 NavigationBar(
+                    modifier = Modifier.height(58.dp),
                     containerColor = MaterialTheme.colorScheme.surface,
                     tonalElevation = 4.dp,
                 ) {
@@ -76,11 +79,12 @@ fun AppRoot(
                             },
                             icon = {
                                 Icon(
+                                    modifier = Modifier.size(20.dp),
                                     imageVector = item.icon,
                                     contentDescription = item.label,
                                 )
                             },
-                            label = { Text(item.label) },
+                            label = { Text(item.label, style = MaterialTheme.typography.labelLarge) },
                             colors = NavigationBarItemDefaults.colors(
                                 selectedIconColor = MaterialTheme.colorScheme.onPrimaryContainer,
                                 selectedTextColor = MaterialTheme.colorScheme.primary,

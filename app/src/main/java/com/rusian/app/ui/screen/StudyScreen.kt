@@ -110,7 +110,7 @@ fun StudyScreen(
 ) {
     val state by viewModel.state.collectAsStateWithLifecycle()
     val dense = rememberIsDenseHeight()
-    val spacing = if (dense) 6.dp else 8.dp
+    val spacing = if (dense) 4.dp else 6.dp
     val alphabetCards = state.cards.filter { it.kind == StudyKind.ALPHABET }
     val confusingAlphabetCards = alphabetCards.filter {
         isConfusingAlphabetCard(it) || state.weakLetterIds.contains(it.remoteStableId)
@@ -300,19 +300,19 @@ fun StudyScreen(
                             horizontalArrangement = Arrangement.spacedBy(6.dp),
                         ) {
                             FilledTonalButton(
-                                modifier = Modifier.weight(1f).heightIn(min = if (dense) 38.dp else 42.dp),
+                                modifier = Modifier.weight(1f).heightIn(min = if (dense) 34.dp else 38.dp),
                                 onClick = { viewModel.submit(ReviewRating.AGAIN) },
                             ) { Text("다시") }
                             FilledTonalButton(
-                                modifier = Modifier.weight(1f).heightIn(min = if (dense) 38.dp else 42.dp),
+                                modifier = Modifier.weight(1f).heightIn(min = if (dense) 34.dp else 38.dp),
                                 onClick = { viewModel.submit(ReviewRating.HARD) },
                             ) { Text("어려움") }
                             Button(
-                                modifier = Modifier.weight(1f).heightIn(min = if (dense) 38.dp else 42.dp),
+                                modifier = Modifier.weight(1f).heightIn(min = if (dense) 34.dp else 38.dp),
                                 onClick = { viewModel.submit(ReviewRating.GOOD) },
                             ) { Text("좋음") }
                             Button(
-                                modifier = Modifier.weight(1f).heightIn(min = if (dense) 38.dp else 42.dp),
+                                modifier = Modifier.weight(1f).heightIn(min = if (dense) 34.dp else 38.dp),
                                 onClick = { viewModel.submit(ReviewRating.EASY) },
                             ) { Text("쉬움") }
                         }
@@ -343,7 +343,7 @@ private fun WordMatchCard(
                 .weight(1f)
                 .verticalScroll(rememberScrollState()),
             horizontalAlignment = Alignment.CenterHorizontally,
-            verticalArrangement = Arrangement.spacedBy(if (dense) 10.dp else 14.dp, Alignment.CenterVertically),
+            verticalArrangement = Arrangement.spacedBy(if (dense) 6.dp else 8.dp, Alignment.CenterVertically),
         ) {
             Surface(
                 modifier = Modifier.fillMaxWidth(),
@@ -353,15 +353,16 @@ private fun WordMatchCard(
                 Column(
                     modifier = Modifier
                         .fillMaxWidth()
-                        .padding(horizontal = 16.dp, vertical = if (dense) 14.dp else 18.dp),
+                        .padding(horizontal = 12.dp, vertical = if (dense) 9.dp else 12.dp),
                     horizontalAlignment = Alignment.CenterHorizontally,
-                    verticalArrangement = Arrangement.spacedBy(8.dp),
+                    verticalArrangement = Arrangement.spacedBy(5.dp),
                 ) {
                     Text(
                         text = card.title,
-                        style = MaterialTheme.typography.headlineMedium.copy(
+                        style = MaterialTheme.typography.titleLarge.copy(
                             fontWeight = FontWeight.SemiBold,
-                            lineHeight = 40.sp,
+                            fontSize = if (dense) 20.sp else 22.sp,
+                            lineHeight = if (dense) 24.sp else 26.sp,
                         ),
                         color = MaterialTheme.colorScheme.onSurface,
                         textAlign = TextAlign.Center,
@@ -373,8 +374,8 @@ private fun WordMatchCard(
                         ) {
                             Text(
                                 text = it,
-                                modifier = Modifier.padding(horizontal = 10.dp, vertical = 6.dp),
-                                style = MaterialTheme.typography.bodyLarge.copy(lineHeight = 24.sp),
+                                modifier = Modifier.padding(horizontal = 8.dp, vertical = 4.dp),
+                                style = MaterialTheme.typography.bodyMedium.copy(lineHeight = 17.sp),
                                 color = MaterialTheme.colorScheme.onSurfaceVariant,
                                 textAlign = TextAlign.Center,
                             )
@@ -394,9 +395,9 @@ private fun WordMatchCard(
                 Column(
                     modifier = Modifier
                         .fillMaxWidth()
-                        .padding(horizontal = 16.dp, vertical = if (dense) 14.dp else 18.dp),
+                        .padding(horizontal = 12.dp, vertical = if (dense) 9.dp else 12.dp),
                     horizontalAlignment = Alignment.CenterHorizontally,
-                    verticalArrangement = Arrangement.spacedBy(6.dp),
+                    verticalArrangement = Arrangement.spacedBy(4.dp),
                 ) {
                     Text(
                         text = if (reveal) {
@@ -404,9 +405,9 @@ private fun WordMatchCard(
                         } else {
                             "뜻 보기"
                         },
-                        style = MaterialTheme.typography.headlineSmall.copy(
+                        style = MaterialTheme.typography.titleLarge.copy(
                             fontWeight = FontWeight.SemiBold,
-                            lineHeight = 32.sp,
+                            lineHeight = 22.sp,
                         ),
                         color = if (reveal) {
                             MaterialTheme.colorScheme.onPrimaryContainer
@@ -425,9 +426,9 @@ private fun WordMatchCard(
                 Column(
                     modifier = Modifier
                         .fillMaxWidth()
-                        .padding(top = if (dense) 10.dp else 14.dp),
+                        .padding(top = if (dense) 6.dp else 8.dp),
                     horizontalAlignment = Alignment.CenterHorizontally,
-                    verticalArrangement = Arrangement.spacedBy(6.dp),
+                    verticalArrangement = Arrangement.spacedBy(4.dp),
                 ) {
                     card.exampleRu?.let {
                         Text(
@@ -452,14 +453,14 @@ private fun WordMatchCard(
             Button(
                 modifier = Modifier
                     .fillMaxWidth()
-                    .heightIn(min = 50.dp),
+                    .heightIn(min = if (dense) 40.dp else 44.dp),
                 onClick = onNext,
             ) { Text("다음") }
         } else {
             Button(
                 modifier = Modifier
                     .fillMaxWidth()
-                    .heightIn(min = 50.dp),
+                    .heightIn(min = if (dense) 40.dp else 44.dp),
                 onClick = onReveal,
             ) { Text("뜻 보기") }
         }
@@ -623,9 +624,9 @@ private fun AlphabetSoundBoard(
 
     LazyVerticalGrid(
         modifier = modifier.fillMaxWidth(),
-        columns = GridCells.Fixed(5),
-        horizontalArrangement = Arrangement.spacedBy(8.dp),
-        verticalArrangement = Arrangement.spacedBy(8.dp),
+        columns = GridCells.Fixed(6),
+        horizontalArrangement = Arrangement.spacedBy(5.dp),
+        verticalArrangement = Arrangement.spacedBy(5.dp),
     ) {
         items(
             items = filteredCards,
@@ -719,9 +720,9 @@ private fun AlphabetListeningQuiz(
                 shape = MaterialTheme.shapes.extraLarge,
             ) {
                 Column(
-                    modifier = Modifier.padding(horizontal = 18.dp, vertical = 22.dp),
+                    modifier = Modifier.padding(horizontal = 12.dp, vertical = 14.dp),
                     horizontalAlignment = Alignment.CenterHorizontally,
-                    verticalArrangement = Arrangement.spacedBy(8.dp),
+                    verticalArrangement = Arrangement.spacedBy(5.dp),
                 ) {
                     Text(
                         text = "퀴즈 완료",
@@ -773,7 +774,7 @@ private fun AlphabetListeningQuiz(
             progress = { (questionIndex.toFloat() / questions.size.toFloat()).coerceIn(0f, 1f) },
             modifier = Modifier
                 .fillMaxWidth()
-                .height(5.dp),
+                .height(4.dp),
             color = AlphabetBlue,
             trackColor = AlphabetBlueLight,
         )
@@ -783,9 +784,9 @@ private fun AlphabetListeningQuiz(
             shape = MaterialTheme.shapes.extraLarge,
         ) {
             Column(
-                modifier = Modifier.padding(horizontal = 18.dp, vertical = 18.dp),
+                modifier = Modifier.padding(horizontal = 12.dp, vertical = 12.dp),
                 horizontalAlignment = Alignment.CenterHorizontally,
-                verticalArrangement = Arrangement.spacedBy(8.dp),
+                verticalArrangement = Arrangement.spacedBy(5.dp),
             ) {
                 Text(
                     text = promptTitle,
@@ -795,9 +796,10 @@ private fun AlphabetListeningQuiz(
                 )
                 Text(
                     text = promptValue,
-                    style = MaterialTheme.typography.headlineMedium.copy(
+                    style = MaterialTheme.typography.titleLarge.copy(
                         fontWeight = FontWeight.SemiBold,
-                        lineHeight = 38.sp,
+                        fontSize = 22.sp,
+                        lineHeight = 26.sp,
                     ),
                     color = AlphabetBlueText,
                     textAlign = TextAlign.Center,
@@ -808,7 +810,7 @@ private fun AlphabetListeningQuiz(
         options.chunked(2).forEach { row ->
             Row(
                 modifier = Modifier.fillMaxWidth(),
-                horizontalArrangement = Arrangement.spacedBy(8.dp),
+                horizontalArrangement = Arrangement.spacedBy(6.dp),
             ) {
                 row.forEach { option ->
                     val isCorrect = option.remoteStableId == currentCard.remoteStableId
@@ -831,7 +833,7 @@ private fun AlphabetListeningQuiz(
                     Button(
                         modifier = Modifier
                             .weight(1f)
-                            .heightIn(min = 58.dp),
+                            .heightIn(min = 44.dp),
                         shape = MaterialTheme.shapes.large,
                         colors = ButtonDefaults.buttonColors(
                             containerColor = containerColor,
@@ -934,7 +936,7 @@ private fun AlphabetSoundTile(
     Surface(
         modifier = Modifier
             .fillMaxWidth()
-            .aspectRatio(0.62f)
+            .aspectRatio(0.82f)
             .combinedClickable(
                 onClick = onClick,
                 onLongClick = onLongClick,
@@ -945,15 +947,15 @@ private fun AlphabetSoundTile(
         Column(
             modifier = Modifier
                 .fillMaxSize()
-                .padding(horizontal = 6.dp, vertical = 10.dp),
+                .padding(horizontal = 4.dp, vertical = 6.dp),
             horizontalAlignment = Alignment.CenterHorizontally,
             verticalArrangement = Arrangement.SpaceBetween,
         ) {
             Text(
                 text = if (pronunciationOnly) pronunciation else letter,
                 style = MaterialTheme.typography.headlineSmall.copy(
-                    fontSize = if (pronunciationOnly) 18.sp else 28.sp,
-                    lineHeight = if (pronunciationOnly) 22.sp else 30.sp,
+                    fontSize = if (pronunciationOnly) 14.sp else 22.sp,
+                    lineHeight = if (pronunciationOnly) 17.sp else 24.sp,
                     fontWeight = FontWeight.Medium,
                 ),
                 color = AlphabetBlueText,
@@ -964,8 +966,8 @@ private fun AlphabetSoundTile(
             Text(
                 text = if (pronunciationOnly) letter else pronunciation,
                 style = MaterialTheme.typography.titleMedium.copy(
-                    fontSize = if (pronunciationOnly) 22.sp else 14.sp,
-                    lineHeight = if (pronunciationOnly) 24.sp else 17.sp,
+                    fontSize = if (pronunciationOnly) 17.sp else 11.sp,
+                    lineHeight = if (pronunciationOnly) 19.sp else 13.sp,
                     fontWeight = FontWeight.Normal,
                 ),
                 color = AlphabetBlue,

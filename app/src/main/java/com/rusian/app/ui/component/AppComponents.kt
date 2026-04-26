@@ -30,8 +30,8 @@ import androidx.compose.ui.unit.dp
 import com.rusian.app.ui.theme.AppTheme
 
 val ScreenContentPadding = PaddingValues(
-    horizontal = 14.dp,
-    vertical = 14.dp,
+    horizontal = 9.dp,
+    vertical = 9.dp,
 )
 
 @Composable
@@ -80,7 +80,7 @@ fun AppLoadingView(
     Column(
         modifier = modifier.fillMaxSize(),
         horizontalAlignment = Alignment.CenterHorizontally,
-        verticalArrangement = Arrangement.spacedBy(14.dp, Alignment.CenterVertically),
+        verticalArrangement = Arrangement.spacedBy(10.dp, Alignment.CenterVertically),
     ) {
         CircularProgressIndicator()
         Text(
@@ -99,7 +99,7 @@ fun SectionHeader(
 ) {
     Column(
         modifier = modifier,
-        verticalArrangement = Arrangement.spacedBy(4.dp),
+        verticalArrangement = Arrangement.spacedBy(2.dp),
     ) {
         Text(
             text = title,
@@ -137,8 +137,8 @@ fun SoftCard(
         Column(
             modifier = Modifier
                 .fillMaxWidth()
-                .padding(horizontal = 12.dp, vertical = 12.dp),
-            verticalArrangement = Arrangement.spacedBy(8.dp),
+                .padding(horizontal = 9.dp, vertical = 9.dp),
+            verticalArrangement = Arrangement.spacedBy(6.dp),
             content = content,
         )
     }
@@ -162,7 +162,7 @@ fun PrimaryActionButton(
             disabledContainerColor = MaterialTheme.colorScheme.primary.copy(alpha = 0.18f),
             disabledContentColor = AppTheme.extendedColors.textSecondary.copy(alpha = 0.7f),
         ),
-        contentPadding = PaddingValues(vertical = 10.dp, horizontal = 12.dp),
+        contentPadding = PaddingValues(vertical = 8.dp, horizontal = 10.dp),
     ) {
         Text(text = text, style = MaterialTheme.typography.labelLarge)
     }
@@ -181,7 +181,7 @@ fun MetricChip(
     ) {
         Text(
             text = text,
-            modifier = Modifier.padding(horizontal = 8.dp, vertical = 4.dp),
+            modifier = Modifier.padding(horizontal = 6.dp, vertical = 3.dp),
             style = MaterialTheme.typography.labelLarge,
             color = MaterialTheme.colorScheme.onSurfaceVariant,
         )
