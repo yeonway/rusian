@@ -1,0 +1,75 @@
+{
+  "buildFiles": [
+    "C:\\Users\\HOME\\Desktop\\rusian\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "C:\\Users\\HOME\\Desktop\\rusian\\app\\src\\main\\cpp\\llama.cpp\\CMakeLists.txt",
+    "C:\\Users\\HOME\\Desktop\\rusian\\app\\src\\main\\cpp\\llama.cpp\\cmake\\build-info.cmake",
+    "C:\\Users\\HOME\\Desktop\\rusian\\app\\src\\main\\cpp\\llama.cpp\\cmake\\common.cmake",
+    "C:\\Users\\HOME\\Desktop\\rusian\\app\\src\\main\\cpp\\llama.cpp\\cmake\\license.cmake",
+    "C:\\Users\\HOME\\Desktop\\rusian\\app\\src\\main\\cpp\\llama.cpp\\cmake\\llama-config.cmake.in",
+    "C:\\Users\\HOME\\Desktop\\rusian\\app\\src\\main\\cpp\\llama.cpp\\ggml\\CMakeLists.txt",
+    "C:\\Users\\HOME\\Desktop\\rusian\\app\\src\\main\\cpp\\llama.cpp\\ggml\\cmake\\common.cmake",
+    "C:\\Users\\HOME\\Desktop\\rusian\\app\\src\\main\\cpp\\llama.cpp\\ggml\\cmake\\ggml-config.cmake.in",
+    "C:\\Users\\HOME\\Desktop\\rusian\\app\\src\\main\\cpp\\llama.cpp\\ggml\\src\\CMakeLists.txt",
+    "C:\\Users\\HOME\\Desktop\\rusian\\app\\src\\main\\cpp\\llama.cpp\\ggml\\src\\ggml-cpu\\CMakeLists.txt",
+    "C:\\Users\\HOME\\Desktop\\rusian\\app\\src\\main\\cpp\\llama.cpp\\src\\CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "C:\\Users\\HOME\\AppData\\Local\\Android\\Sdk\\cmake\\3.22.1\\bin\\ninja.exe",
+      "-C",
+      "C:\\Users\\HOME\\Desktop\\rusian\\app\\.cxx\\Release\\4x495w2v\\arm64-v8a",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "C:\\Users\\HOME\\AppData\\Local\\Android\\Sdk\\cmake\\3.22.1\\bin\\ninja.exe",
+    "-C",
+    "C:\\Users\\HOME\\Desktop\\rusian\\app\\.cxx\\Release\\4x495w2v\\arm64-v8a",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "ggml::@94de48a0d5830e0c5d2f": {
+      "toolchain": "toolchain",
+      "abi": "arm64-v8a",
+      "artifactName": "ggml",
+      "output": "C:\\Users\\HOME\\Desktop\\rusian\\app\\.cxx\\Release\\4x495w2v\\arm64-v8a\\llama.cpp\\ggml\\src\\libggml.a"
+    },
+    "ggml-base::@94de48a0d5830e0c5d2f": {
+      "toolchain": "toolchain",
+      "abi": "arm64-v8a",
+      "artifactName": "ggml-base",
+      "output": "C:\\Users\\HOME\\Desktop\\rusian\\app\\.cxx\\Release\\4x495w2v\\arm64-v8a\\llama.cpp\\ggml\\src\\libggml-base.a"
+    },
+    "ggml-cpu::@94de48a0d5830e0c5d2f": {
+      "toolchain": "toolchain",
+      "abi": "arm64-v8a",
+      "artifactName": "ggml-cpu",
+      "output": "C:\\Users\\HOME\\Desktop\\rusian\\app\\.cxx\\Release\\4x495w2v\\arm64-v8a\\llama.cpp\\ggml\\src\\libggml-cpu.a"
+    },
+    "llama::@fb8c1886b26de7beabc1": {
+      "toolchain": "toolchain",
+      "abi": "arm64-v8a",
+      "artifactName": "llama",
+      "output": "C:\\Users\\HOME\\Desktop\\rusian\\app\\.cxx\\Release\\4x495w2v\\arm64-v8a\\llama.cpp\\src\\libllama.a"
+    },
+    "rusian_llama::@6890427a1f51a3e7e1df": {
+      "toolchain": "toolchain",
+      "abi": "arm64-v8a",
+      "artifactName": "rusian_llama",
+      "output": "C:\\Users\\HOME\\Desktop\\rusian\\app\\build\\intermediates\\cxx\\Release\\4x495w2v\\obj\\arm64-v8a\\librusian_llama.so",
+      "runtimeFiles": []
+    }
+  },
+  "toolchains": {
+    "toolchain": {
+      "cCompilerExecutable": "C:\\Users\\HOME\\AppData\\Local\\Android\\Sdk\\ndk\\26.1.10909125\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe",
+      "cppCompilerExecutable": "C:\\Users\\HOME\\AppData\\Local\\Android\\Sdk\\ndk\\26.1.10909125\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe"
+    }
+  },
+  "cFileExtensions": [
+    "c"
+  ],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}

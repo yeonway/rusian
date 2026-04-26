@@ -1,0 +1,4763 @@
+{
+  "schemaVersion": 2,
+  "datasetVersion": "2026.04.26-alphabet-ko-pronunciation",
+  "language": "ru",
+  "glossLanguage": "ko",
+  "categories": [
+    {
+      "id": "first-meet",
+      "name": "첫 만남",
+      "description": "처음 보는 사람과 인사할 때",
+      "sortOrder": 1
+    },
+    {
+      "id": "small-talk",
+      "name": "일상 대화",
+      "description": "가볍게 주고받는 기본 대화",
+      "sortOrder": 2
+    },
+    {
+      "id": "emotions",
+      "name": "감정 표현",
+      "description": "기분과 상태를 말할 때",
+      "sortOrder": 3
+    },
+    {
+      "id": "light-chat",
+      "name": "가벼운 말",
+      "description": "친한 사이에서 빠르게 쓰는 표현",
+      "sortOrder": 4
+    },
+    {
+      "id": "internet-slang",
+      "name": "인터넷/슬랭",
+      "description": "메신저, 댓글, 밈에서 자주 보이는 표현",
+      "sortOrder": 5
+    },
+    {
+      "id": "situation",
+      "name": "상황별 표현",
+      "description": "도움 요청, 이동, 문제 해결",
+      "sortOrder": 6
+    }
+  ],
+  "alphabet": [
+    {
+      "id": "a",
+      "uppercase": "А",
+      "lowercase": "а",
+      "nameKo": "아",
+      "romanization": "a",
+      "pronunciationHint": "아",
+      "letterType": "VOWEL",
+      "soundFeel": "입이 크게 열리는 밝은 소리",
+      "confusionGroup": null,
+      "confusionNote": "영어 A처럼 보여도 러시아어에서는 늘 분명한 모음",
+      "usageFrequency": "매우 높음",
+      "tmiNote": "강세가 오면 소리가 또렷하게 살아난다.",
+      "sortOrder": 1,
+      "examples": [
+        "арбуз"
+      ]
+    },
+    {
+      "id": "be",
+      "uppercase": "Б",
+      "lowercase": "б",
+      "nameKo": "베",
+      "romanization": "b",
+      "pronunciationHint": "브",
+      "letterType": "CONSONANT",
+      "soundFeel": "짧게 터지는 유성 파열음",
+      "confusionGroup": null,
+      "confusionNote": "소문자 б는 영어 b와 모양이 다르다",
+      "usageFrequency": "높음",
+      "tmiNote": "단어 끝에서는 무성화돼 p 비슷하게 들릴 수 있다.",
+      "sortOrder": 2,
+      "examples": [
+        "банк"
+      ]
+    },
+    {
+      "id": "ve",
+      "uppercase": "В",
+      "lowercase": "в",
+      "nameKo": "베",
+      "romanization": "v",
+      "pronunciationHint": "브",
+      "letterType": "CONSONANT",
+      "soundFeel": "입술이 닿지 않는 v 계열",
+      "confusionGroup": "b-v",
+      "confusionNote": "영어 B처럼 생겼지만 소리는 v",
+      "usageFrequency": "매우 높음",
+      "tmiNote": "초반 학습에서 제일 자주 헷갈리는 글자 중 하나.",
+      "sortOrder": 3,
+      "examples": [
+        "виза"
+      ]
+    },
+    {
+      "id": "ghe",
+      "uppercase": "Г",
+      "lowercase": "г",
+      "nameKo": "게",
+      "romanization": "g",
+      "pronunciationHint": "그",
+      "letterType": "CONSONANT",
+      "soundFeel": "목 뒤쪽에서 울리는 g",
+      "confusionGroup": null,
+      "confusionNote": "영어 r처럼 휘갈겨 쓰이는 필기체 모양에 주의",
+      "usageFrequency": "높음",
+      "tmiNote": "단어 끝에서는 k처럼 들릴 수 있다.",
+      "sortOrder": 4,
+      "examples": [
+        "город"
+      ]
+    },
+    {
+      "id": "de",
+      "uppercase": "Д",
+      "lowercase": "д",
+      "nameKo": "데",
+      "romanization": "d",
+      "pronunciationHint": "드",
+      "letterType": "CONSONANT",
+      "soundFeel": "혀끝이 닿는 단단한 d",
+      "confusionGroup": null,
+      "confusionNote": "대문자 Д는 삼각형 느낌이라 영어 D와 다르다",
+      "usageFrequency": "높음",
+      "tmiNote": "끝소리에서는 t처럼 들릴 때가 많다.",
+      "sortOrder": 5,
+      "examples": [
+        "дом"
+      ]
+    },
+    {
+      "id": "ie",
+      "uppercase": "Е",
+      "lowercase": "е",
+      "nameKo": "예",
+      "romanization": "e/ye",
+      "pronunciationHint": "예",
+      "letterType": "VOWEL",
+      "soundFeel": "앞에 y 느낌이 섞이는 모음",
+      "confusionGroup": "ye-yo",
+      "confusionNote": "단어 위치에 따라 e와 ye 느낌이 달라진다",
+      "usageFrequency": "매우 높음",
+      "tmiNote": "초성에서는 ye처럼 시작되는 경우가 많다.",
+      "sortOrder": 6,
+      "examples": [
+        "еда"
+      ]
+    },
+    {
+      "id": "yo",
+      "uppercase": "Ё",
+      "lowercase": "ё",
+      "nameKo": "요",
+      "romanization": "yo",
+      "pronunciationHint": "요",
+      "letterType": "VOWEL",
+      "soundFeel": "입모양이 둥근 yo",
+      "confusionGroup": "ye-yo",
+      "confusionNote": "점 두 개를 생략해 Е로 쓰기도 한다",
+      "usageFrequency": "중간",
+      "tmiNote": "사전에는 Ё가 표시되지만 실사용 문장에서는 생략되는 경우가 많다.",
+      "sortOrder": 7,
+      "examples": [
+        "ёлка"
+      ]
+    },
+    {
+      "id": "zhe",
+      "uppercase": "Ж",
+      "lowercase": "ж",
+      "nameKo": "제",
+      "romanization": "zh",
+      "pronunciationHint": "쥐",
+      "letterType": "CONSONANT",
+      "soundFeel": "두터운 zh 마찰음",
+      "confusionGroup": null,
+      "confusionNote": "영어에 없는 소리라 sh와 구분 필요",
+      "usageFrequency": "중간",
+      "tmiNote": "입술을 너무 둥글게 하면 과장되게 들린다.",
+      "sortOrder": 8,
+      "examples": [
+        "жизнь"
+      ]
+    },
+    {
+      "id": "ze",
+      "uppercase": "З",
+      "lowercase": "з",
+      "nameKo": "제",
+      "romanization": "z",
+      "pronunciationHint": "즈",
+      "letterType": "CONSONANT",
+      "soundFeel": "부드럽게 진동하는 z",
+      "confusionGroup": "z-s",
+      "confusionNote": "끝소리에서 s처럼 들리는 무성화에 주의",
+      "usageFrequency": "높음",
+      "tmiNote": "전치사 с와 발음 동화가 자주 일어난다.",
+      "sortOrder": 9,
+      "examples": [
+        "зона"
+      ]
+    },
+    {
+      "id": "i",
+      "uppercase": "И",
+      "lowercase": "и",
+      "nameKo": "이",
+      "romanization": "i",
+      "pronunciationHint": "이",
+      "letterType": "VOWEL",
+      "soundFeel": "얇고 선명한 i",
+      "confusionGroup": "i-y",
+      "confusionNote": "Ы와 대비해서 입 모양을 더 앞쪽으로",
+      "usageFrequency": "매우 높음",
+      "tmiNote": "전치사와 결합할 때 이중모음처럼 들릴 수 있다.",
+      "sortOrder": 10,
+      "examples": [
+        "имя"
+      ]
+    },
+    {
+      "id": "shorti",
+      "uppercase": "Й",
+      "lowercase": "й",
+      "nameKo": "이 크라트카예",
+      "romanization": "y",
+      "pronunciationHint": "짧은 이",
+      "letterType": "CONSONANT",
+      "soundFeel": "짧게 스치는 y",
+      "confusionGroup": "i-y",
+      "confusionNote": "И와 달리 완전한 모음이 아니다",
+      "usageFrequency": "중간",
+      "tmiNote": "주로 모음 뒤에서 미끄러지는 연결음 느낌.",
+      "sortOrder": 11,
+      "examples": [
+        "йога"
+      ]
+    },
+    {
+      "id": "ka",
+      "uppercase": "К",
+      "lowercase": "к",
+      "nameKo": "카",
+      "romanization": "k",
+      "pronunciationHint": "크",
+      "letterType": "CONSONANT",
+      "soundFeel": "짧고 단단한 k",
+      "confusionGroup": null,
+      "confusionNote": "영어 K와 비슷해 초반 진입이 쉽다",
+      "usageFrequency": "매우 높음",
+      "tmiNote": "무성 자음이라 단어 끝에서도 형태가 잘 유지된다.",
+      "sortOrder": 12,
+      "examples": [
+        "код"
+      ]
+    },
+    {
+      "id": "el",
+      "uppercase": "Л",
+      "lowercase": "л",
+      "nameKo": "엘",
+      "romanization": "l",
+      "pronunciationHint": "을",
+      "letterType": "CONSONANT",
+      "soundFeel": "단단한 l과 부드러운 l이 공존",
+      "confusionGroup": null,
+      "confusionNote": "받침 ㄹ처럼 말면 너무 한국어 느낌이 강해진다",
+      "usageFrequency": "높음",
+      "tmiNote": "뒤 모음에 따라 혀 위치가 크게 달라진다.",
+      "sortOrder": 13,
+      "examples": [
+        "лампа"
+      ]
+    },
+    {
+      "id": "em",
+      "uppercase": "М",
+      "lowercase": "м",
+      "nameKo": "엠",
+      "romanization": "m",
+      "pronunciationHint": "므",
+      "letterType": "CONSONANT",
+      "soundFeel": "입술을 닫는 안정적인 m",
+      "confusionGroup": null,
+      "confusionNote": "영어 M과 거의 동일",
+      "usageFrequency": "매우 높음",
+      "tmiNote": "러시아어 리듬에서 박자를 잡아주는 자음.",
+      "sortOrder": 14,
+      "examples": [
+        "мир"
+      ]
+    },
+    {
+      "id": "en",
+      "uppercase": "Н",
+      "lowercase": "н",
+      "nameKo": "엔",
+      "romanization": "n",
+      "pronunciationHint": "느",
+      "letterType": "CONSONANT",
+      "soundFeel": "앞니 뒤에 붙는 n",
+      "confusionGroup": null,
+      "confusionNote": "영어 H처럼 보여도 소리는 n",
+      "usageFrequency": "매우 높음",
+      "tmiNote": "영어 화자들이 시각적으로 가장 많이 속는 문자.",
+      "sortOrder": 15,
+      "examples": [
+        "номер"
+      ]
+    },
+    {
+      "id": "o",
+      "uppercase": "О",
+      "lowercase": "о",
+      "nameKo": "오",
+      "romanization": "o",
+      "pronunciationHint": "오",
+      "letterType": "VOWEL",
+      "soundFeel": "강세 여부에 따라 o/a로 흔들림",
+      "confusionGroup": null,
+      "confusionNote": "강세 없으면 a에 가까워지는 경우가 많다",
+      "usageFrequency": "매우 높음",
+      "tmiNote": "러시아어 모음 축약을 체감하기 좋은 대표 문자.",
+      "sortOrder": 16,
+      "examples": [
+        "окно"
+      ]
+    },
+    {
+      "id": "pe",
+      "uppercase": "П",
+      "lowercase": "п",
+      "nameKo": "페",
+      "romanization": "p",
+      "pronunciationHint": "프",
+      "letterType": "CONSONANT",
+      "soundFeel": "숨이 적은 p",
+      "confusionGroup": null,
+      "confusionNote": "영어 n처럼 생겼지만 소리는 p",
+      "usageFrequency": "높음",
+      "tmiNote": "대문자 형태가 라틴 문자와 크게 다르다.",
+      "sortOrder": 17,
+      "examples": [
+        "проект"
+      ]
+    },
+    {
+      "id": "er",
+      "uppercase": "Р",
+      "lowercase": "р",
+      "nameKo": "에르",
+      "romanization": "r",
+      "pronunciationHint": "르",
+      "letterType": "CONSONANT",
+      "soundFeel": "짧게 떨리는 r",
+      "confusionGroup": null,
+      "confusionNote": "영어 P처럼 생겨 시각 혼동이 잦다",
+      "usageFrequency": "매우 높음",
+      "tmiNote": "완전한 굴림보다 짧은 탭 느낌만 살아도 충분하다.",
+      "sortOrder": 18,
+      "examples": [
+        "работа"
+      ]
+    },
+    {
+      "id": "es",
+      "uppercase": "С",
+      "lowercase": "с",
+      "nameKo": "에스",
+      "romanization": "s",
+      "pronunciationHint": "스",
+      "letterType": "CONSONANT",
+      "soundFeel": "가벼운 s",
+      "confusionGroup": "z-s",
+      "confusionNote": "영어 C처럼 생겨도 k 소리가 아니다",
+      "usageFrequency": "매우 높음",
+      "tmiNote": "전치사로도 매우 자주 출현한다.",
+      "sortOrder": 19,
+      "examples": [
+        "слово"
+      ]
+    },
+    {
+      "id": "te",
+      "uppercase": "Т",
+      "lowercase": "т",
+      "nameKo": "테",
+      "romanization": "t",
+      "pronunciationHint": "트",
+      "letterType": "CONSONANT",
+      "soundFeel": "분명한 t",
+      "confusionGroup": null,
+      "confusionNote": "필기체 소문자 т는 m처럼 보일 수 있다",
+      "usageFrequency": "매우 높음",
+      "tmiNote": "속기체를 볼 때 혼동 포인트가 많다.",
+      "sortOrder": 20,
+      "examples": [
+        "тест"
+      ]
+    },
+    {
+      "id": "u",
+      "uppercase": "У",
+      "lowercase": "у",
+      "nameKo": "우",
+      "romanization": "u",
+      "pronunciationHint": "우",
+      "letterType": "VOWEL",
+      "soundFeel": "입술을 모으는 u",
+      "confusionGroup": null,
+      "confusionNote": "영어 y처럼 생겼지만 순수 모음",
+      "usageFrequency": "높음",
+      "tmiNote": "전치사 у는 소유/위치를 표현할 때 매우 자주 등장.",
+      "sortOrder": 21,
+      "examples": [
+        "улица"
+      ]
+    },
+    {
+      "id": "ef",
+      "uppercase": "Ф",
+      "lowercase": "ф",
+      "nameKo": "에프",
+      "romanization": "f",
+      "pronunciationHint": "프",
+      "letterType": "CONSONANT",
+      "soundFeel": "입술과 이 사이를 스치는 f",
+      "confusionGroup": null,
+      "confusionNote": "모양은 낯설지만 소리는 익숙하다",
+      "usageFrequency": "중간",
+      "tmiNote": "외래어에서 자주 보인다.",
+      "sortOrder": 22,
+      "examples": [
+        "файл"
+      ]
+    },
+    {
+      "id": "kha",
+      "uppercase": "Х",
+      "lowercase": "х",
+      "nameKo": "하",
+      "romanization": "kh",
+      "pronunciationHint": "흐",
+      "letterType": "CONSONANT",
+      "soundFeel": "목 뒤에서 새는 kh",
+      "confusionGroup": null,
+      "confusionNote": "영어 X처럼 생겨도 ks 발음이 아니다",
+      "usageFrequency": "높음",
+      "tmiNote": "한국어 ㅎ보다 마찰이 더 두껍다.",
+      "sortOrder": 23,
+      "examples": [
+        "хлеб"
+      ]
+    },
+    {
+      "id": "tse",
+      "uppercase": "Ц",
+      "lowercase": "ц",
+      "nameKo": "체",
+      "romanization": "ts",
+      "pronunciationHint": "츠",
+      "letterType": "CONSONANT",
+      "soundFeel": "t와 s가 붙은 파찰음",
+      "confusionGroup": null,
+      "confusionNote": "ч와 소리가 비슷해도 더 날카롭다",
+      "usageFrequency": "중간",
+      "tmiNote": "복수 어미에서 자주 체감된다.",
+      "sortOrder": 24,
+      "examples": [
+        "цель"
+      ]
+    },
+    {
+      "id": "che",
+      "uppercase": "Ч",
+      "lowercase": "ч",
+      "nameKo": "체",
+      "romanization": "ch",
+      "pronunciationHint": "치",
+      "letterType": "CONSONANT",
+      "soundFeel": "부드러운 ch",
+      "confusionGroup": null,
+      "confusionNote": "ц보다 혀가 앞쪽이고 공기가 덜 거칠다",
+      "usageFrequency": "중간",
+      "tmiNote": "영어 church의 ch와 가까운 편.",
+      "sortOrder": 25,
+      "examples": [
+        "чай"
+      ]
+    },
+    {
+      "id": "sha",
+      "uppercase": "Ш",
+      "lowercase": "ш",
+      "nameKo": "샤",
+      "romanization": "sh",
+      "pronunciationHint": "쉬",
+      "letterType": "CONSONANT",
+      "soundFeel": "넓고 두터운 sh",
+      "confusionGroup": "sh-shch",
+      "confusionNote": "щ보다 짧고 단단한 느낌",
+      "usageFrequency": "중간",
+      "tmiNote": "한국어 ㅅ+ㅣ보다 혀를 조금 뒤로 둔다.",
+      "sortOrder": 26,
+      "examples": [
+        "школа"
+      ]
+    },
+    {
+      "id": "shcha",
+      "uppercase": "Щ",
+      "lowercase": "щ",
+      "nameKo": "쉬차",
+      "romanization": "shch",
+      "pronunciationHint": "쉬치",
+      "letterType": "CONSONANT",
+      "soundFeel": "길게 미끄러지는 sh 계열",
+      "confusionGroup": "sh-shch",
+      "confusionNote": "ш보다 길고 부드럽게 이어진다",
+      "usageFrequency": "낮음",
+      "tmiNote": "완벽히 구분하려고 애쓰기보다 길이 차이를 먼저 잡는 편이 좋다.",
+      "sortOrder": 27,
+      "examples": [
+        "щука"
+      ]
+    },
+    {
+      "id": "hard",
+      "uppercase": "Ъ",
+      "lowercase": "ъ",
+      "nameKo": "경음부호",
+      "romanization": "",
+      "pronunciationHint": "분리",
+      "letterType": "SIGN",
+      "soundFeel": "앞자음과 뒤모음을 분리해주는 표시",
+      "confusionGroup": null,
+      "confusionNote": "자체 소리는 거의 없고 경계 역할",
+      "usageFrequency": "낮음",
+      "tmiNote": "объект 같은 단어에서 발음 끊김을 만든다.",
+      "sortOrder": 28,
+      "examples": [
+        "объект"
+      ]
+    },
+    {
+      "id": "yeri",
+      "uppercase": "Ы",
+      "lowercase": "ы",
+      "nameKo": "으이",
+      "romanization": "y",
+      "pronunciationHint": "으이",
+      "letterType": "VOWEL",
+      "soundFeel": "목 안쪽에서 울리는 거친 모음",
+      "confusionGroup": null,
+      "confusionNote": "이(И)와 가장 헷갈리는 모음",
+      "usageFrequency": "중간",
+      "tmiNote": "혀를 조금 뒤로 당기면 훨씬 자연스럽다.",
+      "sortOrder": 29,
+      "examples": [
+        "мы"
+      ]
+    },
+    {
+      "id": "soft",
+      "uppercase": "Ь",
+      "lowercase": "ь",
+      "nameKo": "연음부호",
+      "romanization": "",
+      "pronunciationHint": "연하게",
+      "letterType": "SIGN",
+      "soundFeel": "앞자음을 부드럽게 만드는 표시",
+      "confusionGroup": null,
+      "confusionNote": "소리보다 '자음 성질'을 바꾼다고 이해하면 쉽다",
+      "usageFrequency": "높음",
+      "tmiNote": "день, любовь 같은 핵심 단어에 자주 등장.",
+      "sortOrder": 30,
+      "examples": [
+        "день"
+      ]
+    },
+    {
+      "id": "e",
+      "uppercase": "Э",
+      "lowercase": "э",
+      "nameKo": "에",
+      "romanization": "e",
+      "pronunciationHint": "에",
+      "letterType": "VOWEL",
+      "soundFeel": "입을 펼쳐 내는 단독 e",
+      "confusionGroup": null,
+      "confusionNote": "Е와 달리 y 시작 느낌이 약하다",
+      "usageFrequency": "낮음",
+      "tmiNote": "외래어와 지시어(это)에서 체감하기 좋다.",
+      "sortOrder": 31,
+      "examples": [
+        "это"
+      ]
+    },
+    {
+      "id": "yu",
+      "uppercase": "Ю",
+      "lowercase": "ю",
+      "nameKo": "유",
+      "romanization": "yu",
+      "pronunciationHint": "유",
+      "letterType": "VOWEL",
+      "soundFeel": "y와 u가 붙는 둥근 소리",
+      "confusionGroup": null,
+      "confusionNote": "모음 앞에서 자음 경화를 유도하지 않는다",
+      "usageFrequency": "중간",
+      "tmiNote": "문장 속에서는 의외로 부드러운 연결감이 강하다.",
+      "sortOrder": 32,
+      "examples": [
+        "юг"
+      ]
+    },
+    {
+      "id": "ya",
+      "uppercase": "Я",
+      "lowercase": "я",
+      "nameKo": "야",
+      "romanization": "ya",
+      "pronunciationHint": "야",
+      "letterType": "VOWEL",
+      "soundFeel": "y와 a가 붙은 밝은 소리",
+      "confusionGroup": null,
+      "confusionNote": "러시아어 1인칭 대명사 자체가 Я",
+      "usageFrequency": "매우 높음",
+      "tmiNote": "초보가 가장 빨리 기억하게 되는 문자.",
+      "sortOrder": 33,
+      "examples": [
+        "язык"
+      ]
+    }
+  ],
+  "words": [
+    {
+      "id": "first-meet_formal_0001",
+      "categoryId": "first-meet",
+      "word": "Здравствуйте",
+      "stress": "Здра́вствуйте",
+      "transliteration": "zdravstvuyte",
+      "pronunciationKo": "즈드라-스트부이쩨",
+      "partOfSpeech": "greeting",
+      "tone": "FORMAL",
+      "situationHint": "처음 만나 정중하게 인사할 때",
+      "usageNote": "격식을 차리는 기본 인사라 첫 만남에 무난하다",
+      "pairKey": "greeting_formal",
+      "contextTag": "첫인사",
+      "meanings": [
+        "안녕하세요"
+      ],
+      "example": {
+        "ru": "Здравствуйте, рад познакомиться.",
+        "ko": "안녕하세요, 만나서 반갑습니다."
+      },
+      "difficulty": 1,
+      "tags": [
+        "greeting",
+        "formal",
+        "basic"
+      ],
+      "active": true
+    },
+    {
+      "id": "first-meet_formal_0002",
+      "categoryId": "first-meet",
+      "word": "Очень приятно",
+      "stress": "О́чень прия́тно",
+      "transliteration": "ochen priyatno",
+      "pronunciationKo": "오-첸 쁘리야-뜨나",
+      "partOfSpeech": "phrase",
+      "tone": "FORMAL",
+      "situationHint": "상대 소개를 듣고 반갑다고 할 때",
+      "usageNote": "처음 만난 자리에서 부드럽고 공손하게 들린다",
+      "pairKey": "nice_to_meet",
+      "contextTag": "만남",
+      "meanings": [
+        "매우 반갑습니다"
+      ],
+      "example": {
+        "ru": "Очень приятно с вами познакомиться.",
+        "ko": "당신을 만나서 매우 반갑습니다."
+      },
+      "difficulty": 1,
+      "tags": [
+        "meeting",
+        "polite"
+      ],
+      "active": true
+    },
+    {
+      "id": "first-meet_neutral_0003",
+      "categoryId": "first-meet",
+      "word": "Меня зовут...",
+      "stress": "Меня́ зову́т...",
+      "transliteration": "menya zovut",
+      "pronunciationKo": "미냐 자부-트",
+      "partOfSpeech": "phrase",
+      "tone": "NEUTRAL",
+      "situationHint": "자기 이름을 소개할 때",
+      "usageNote": "문장 끝에 자기 이름을 붙이면 된다",
+      "pairKey": "introduce_name",
+      "contextTag": "자기소개",
+      "meanings": [
+        "제 이름은 ...입니다"
+      ],
+      "example": {
+        "ru": "Меня зовут Юна.",
+        "ko": "제 이름은 유나입니다."
+      },
+      "difficulty": 1,
+      "tags": [
+        "introduction",
+        "name"
+      ],
+      "active": true
+    },
+    {
+      "id": "first-meet_formal_0004",
+      "categoryId": "first-meet",
+      "word": "Как вас зовут?",
+      "stress": "Как вас зову́т?",
+      "transliteration": "kak vas zovut",
+      "pronunciationKo": "깍 바스 자부-트",
+      "partOfSpeech": "question",
+      "tone": "FORMAL",
+      "situationHint": "상대 이름을 정중하게 물을 때",
+      "usageNote": "처음 만난 어른이나 공식 자리에서 자연스럽다",
+      "pairKey": "ask_name_formal",
+      "contextTag": "질문",
+      "meanings": [
+        "성함이 어떻게 되세요?"
+      ],
+      "example": {
+        "ru": "Как вас зовут, простите?",
+        "ko": "실례지만 성함이 어떻게 되세요?"
+      },
+      "difficulty": 1,
+      "tags": [
+        "question",
+        "name",
+        "formal"
+      ],
+      "active": true
+    },
+    {
+      "id": "first-meet_neutral_0005",
+      "categoryId": "first-meet",
+      "word": "Откуда вы?",
+      "stress": "О́ткуда вы?",
+      "transliteration": "otkuda vy",
+      "pronunciationKo": "앗꾸다 븨",
+      "partOfSpeech": "question",
+      "tone": "NEUTRAL",
+      "situationHint": "상대의 출신이나 거주지를 물을 때",
+      "usageNote": "초반 스몰토크로 자주 쓰이지만 너무 캐묻지 않게 쓴다",
+      "pairKey": "ask_origin",
+      "contextTag": "출신",
+      "meanings": [
+        "어디서 오셨어요?"
+      ],
+      "example": {
+        "ru": "Откуда вы? Я из Сеула.",
+        "ko": "어디서 오셨어요? 저는 서울에서 왔어요."
+      },
+      "difficulty": 1,
+      "tags": [
+        "question",
+        "origin"
+      ],
+      "active": true
+    },
+    {
+      "id": "first-meet_neutral_0006",
+      "categoryId": "first-meet",
+      "word": "Я из Кореи",
+      "stress": "Я из Коре́и",
+      "transliteration": "ya iz Korei",
+      "pronunciationKo": "야 이스 까례이",
+      "partOfSpeech": "phrase",
+      "tone": "NEUTRAL",
+      "situationHint": "자신의 출신을 말할 때",
+      "usageNote": "국가명만 바꿔 여러 나라에 응용할 수 있다",
+      "pairKey": "say_origin",
+      "contextTag": "출신",
+      "meanings": [
+        "저는 한국에서 왔어요"
+      ],
+      "example": {
+        "ru": "Я из Кореи, а вы?",
+        "ko": "저는 한국에서 왔어요. 당신은요?"
+      },
+      "difficulty": 1,
+      "tags": [
+        "origin",
+        "self-intro"
+      ],
+      "active": true
+    },
+    {
+      "id": "first-meet_formal_0007",
+      "categoryId": "first-meet",
+      "word": "Разрешите представиться",
+      "stress": "Разреши́те представи́ться",
+      "transliteration": "razreshite predstavitsya",
+      "pronunciationKo": "라즈리쉬-쩨 쁘리스따비짜",
+      "partOfSpeech": "phrase",
+      "tone": "FORMAL",
+      "situationHint": "아주 정중하게 자신을 소개할 때",
+      "usageNote": "격식 있는 비즈니스나 공식 행사에서 어울린다",
+      "pairKey": "introduce_formal",
+      "contextTag": "자기소개",
+      "meanings": [
+        "소개드리겠습니다"
+      ],
+      "example": {
+        "ru": "Разрешите представиться, я Хисхак.",
+        "ko": "소개드리겠습니다, 저는 희학입니다."
+      },
+      "difficulty": 2,
+      "tags": [
+        "formal",
+        "business"
+      ],
+      "active": true
+    },
+    {
+      "id": "first-meet_formal_0008",
+      "categoryId": "first-meet",
+      "word": "Это мой коллега",
+      "stress": "Э́то мой колле́га",
+      "transliteration": "eto moy kollega",
+      "pronunciationKo": "에따 모이 깔레-가",
+      "partOfSpeech": "phrase",
+      "tone": "FORMAL",
+      "situationHint": "같이 온 사람을 소개할 때",
+      "usageNote": "업무 자리에서 자연스럽게 자주 쓰인다",
+      "pairKey": "introduce_other",
+      "contextTag": "동행소개",
+      "meanings": [
+        "이분은 제 동료입니다"
+      ],
+      "example": {
+        "ru": "Это мой коллега Алексей.",
+        "ko": "이분은 제 동료 알렉세이입니다."
+      },
+      "difficulty": 1,
+      "tags": [
+        "introduction",
+        "colleague"
+      ],
+      "active": true
+    },
+    {
+      "id": "first-meet_neutral_0009",
+      "categoryId": "first-meet",
+      "word": "Я впервые здесь",
+      "stress": "Я впервы́е здесь",
+      "transliteration": "ya vpervye zdes",
+      "pronunciationKo": "야 프삐르브예 즈데스",
+      "partOfSpeech": "phrase",
+      "tone": "NEUTRAL",
+      "situationHint": "처음 온 장소임을 말할 때",
+      "usageNote": "어색함을 풀고 도움을 구할 때도 유용하다",
+      "pairKey": "first_time_here",
+      "contextTag": "상황설명",
+      "meanings": [
+        "저 여기 처음이에요"
+      ],
+      "example": {
+        "ru": "Я впервые здесь, немного волнуюсь.",
+        "ko": "저 여기 처음이라 조금 긴장돼요."
+      },
+      "difficulty": 2,
+      "tags": [
+        "first-time",
+        "smalltalk"
+      ],
+      "active": true
+    },
+    {
+      "id": "first-meet_formal_0010",
+      "categoryId": "first-meet",
+      "word": "Будем знакомы",
+      "stress": "Бу́дем знако́мы",
+      "transliteration": "budem znakomy",
+      "pronunciationKo": "부뎀 즈나꼬므이",
+      "partOfSpeech": "phrase",
+      "tone": "FORMAL",
+      "situationHint": "처음 만나 인사를 마무리할 때",
+      "usageNote": "조금 문어적이지만 여전히 쓰이는 표현이다",
+      "pairKey": "meeting_close",
+      "contextTag": "인사마무리",
+      "meanings": [
+        "잘 부탁드립니다",
+        "알아두죠"
+      ],
+      "example": {
+        "ru": "Будем знакомы, надеюсь, ещё увидимся.",
+        "ko": "잘 부탁드립니다, 또 뵐 수 있으면 좋겠습니다."
+      },
+      "difficulty": 2,
+      "tags": [
+        "greeting",
+        "closing"
+      ],
+      "active": true
+    },
+    {
+      "id": "first-meet_formal_0011",
+      "categoryId": "first-meet",
+      "word": "Рад вас видеть",
+      "stress": "Рад вас ви́деть",
+      "transliteration": "rad vas videt",
+      "pronunciationKo": "랃 바스 비제찌",
+      "partOfSpeech": "phrase",
+      "tone": "FORMAL",
+      "situationHint": "상대를 만나 반가움을 표현할 때",
+      "usageNote": "남성 화자 기준 느낌이며 여성은 рада도 많이 쓴다",
+      "pairKey": "glad_to_see",
+      "contextTag": "반가움",
+      "meanings": [
+        "뵙게 되어 반갑습니다"
+      ],
+      "example": {
+        "ru": "Рад вас видеть в нашем офисе.",
+        "ko": "우리 사무실에서 뵙게 되어 반갑습니다."
+      },
+      "difficulty": 2,
+      "tags": [
+        "meeting",
+        "polite"
+      ],
+      "active": true
+    },
+    {
+      "id": "first-meet_formal_0012",
+      "categoryId": "first-meet",
+      "word": "Добро пожаловать",
+      "stress": "Добро́ пожа́ловать",
+      "transliteration": "dobro pozhalovat",
+      "pronunciationKo": "다브로 빠좔러밧",
+      "partOfSpeech": "phrase",
+      "tone": "FORMAL",
+      "situationHint": "방문자를 맞이할 때",
+      "usageNote": "손님이나 새로 온 사람을 환영하는 말이다",
+      "pairKey": "welcome",
+      "contextTag": "환영",
+      "meanings": [
+        "환영합니다"
+      ],
+      "example": {
+        "ru": "Добро пожаловать, проходите.",
+        "ko": "환영합니다, 들어오세요."
+      },
+      "difficulty": 1,
+      "tags": [
+        "welcome",
+        "host"
+      ],
+      "active": true
+    },
+    {
+      "id": "first-meet_neutral_0013",
+      "categoryId": "first-meet",
+      "word": "Вы давно здесь?",
+      "stress": "Вы давно́ здесь?",
+      "transliteration": "vy davno zdes",
+      "pronunciationKo": "븨 다브노 즈데스",
+      "partOfSpeech": "question",
+      "tone": "NEUTRAL",
+      "situationHint": "행사나 모임에서 가볍게 말을 틀 때",
+      "usageNote": "너무 개인적인 질문보다 부담이 적다",
+      "pairKey": "ask_since_when",
+      "contextTag": "스몰토크",
+      "meanings": [
+        "여기 온 지 오래되셨어요?"
+      ],
+      "example": {
+        "ru": "Вы давно здесь или тоже только пришли?",
+        "ko": "여기 오래 계셨어요, 아니면 방금 오셨어요?"
+      },
+      "difficulty": 2,
+      "tags": [
+        "question",
+        "event"
+      ],
+      "active": true
+    },
+    {
+      "id": "first-meet_neutral_0014",
+      "categoryId": "first-meet",
+      "word": "Чем вы занимаетесь?",
+      "stress": "Чем вы занима́етесь?",
+      "transliteration": "chem vy zanimaetes",
+      "pronunciationKo": "쳄 븨 자니마예쩨스",
+      "partOfSpeech": "question",
+      "tone": "NEUTRAL",
+      "situationHint": "상대가 무슨 일을 하는지 물을 때",
+      "usageNote": "직업 대신 하는 일을 넓게 묻는 표현이다",
+      "pairKey": "ask_occupation",
+      "contextTag": "직업",
+      "meanings": [
+        "무슨 일 하세요?"
+      ],
+      "example": {
+        "ru": "Чем вы занимаетесь в Корее?",
+        "ko": "한국에서는 무슨 일 하세요?"
+      },
+      "difficulty": 2,
+      "tags": [
+        "question",
+        "job"
+      ],
+      "active": true
+    },
+    {
+      "id": "first-meet_neutral_0015",
+      "categoryId": "first-meet",
+      "word": "Я работаю в...",
+      "stress": "Я рабо́таю в...",
+      "transliteration": "ya rabotayu v",
+      "pronunciationKo": "야 라보-따유 브",
+      "partOfSpeech": "phrase",
+      "tone": "NEUTRAL",
+      "situationHint": "근무처나 분야를 소개할 때",
+      "usageNote": "회사명이나 업종을 뒤에 붙여 말하면 된다",
+      "pairKey": "say_workplace",
+      "contextTag": "자기소개",
+      "meanings": [
+        "저는 ...에서 일해요"
+      ],
+      "example": {
+        "ru": "Я работаю в инженерной компании.",
+        "ko": "저는 엔지니어링 회사에서 일해요."
+      },
+      "difficulty": 1,
+      "tags": [
+        "work",
+        "introduction"
+      ],
+      "active": true
+    },
+    {
+      "id": "first-meet_neutral_0016",
+      "categoryId": "first-meet",
+      "word": "Я изучаю русский",
+      "stress": "Я изуча́ю ру́сский",
+      "transliteration": "ya izuchayu russkiy",
+      "pronunciationKo": "야 이주차-유 루-스끼",
+      "partOfSpeech": "phrase",
+      "tone": "NEUTRAL",
+      "situationHint": "러시아어를 배우고 있다고 말할 때",
+      "usageNote": "대화 상대가 천천히 말해주도록 유도하기 좋다",
+      "pairKey": "learning_russian",
+      "contextTag": "언어학습",
+      "meanings": [
+        "저는 러시아어를 공부해요"
+      ],
+      "example": {
+        "ru": "Я изучаю русский, поэтому говорю медленно.",
+        "ko": "저는 러시아어를 공부해서 천천히 말해요."
+      },
+      "difficulty": 1,
+      "tags": [
+        "language",
+        "learning"
+      ],
+      "active": true
+    },
+    {
+      "id": "first-meet_formal_0017",
+      "categoryId": "first-meet",
+      "word": "Извините, как к вам обращаться?",
+      "stress": "Извини́те, как к вам обраща́ться?",
+      "transliteration": "izvinite kak k vam obrashchatsya",
+      "pronunciationKo": "이즈비니쩨 깍 끄 밤 아브라샤-짜",
+      "partOfSpeech": "question",
+      "tone": "FORMAL",
+      "situationHint": "상대를 어떻게 불러야 할지 물을 때",
+      "usageNote": "이름, 성, 직함을 존중해서 확인하는 표현이다",
+      "pairKey": "ask_how_address",
+      "contextTag": "호칭",
+      "meanings": [
+        "어떻게 불러드리면 될까요?"
+      ],
+      "example": {
+        "ru": "Извините, как к вам обращаться?",
+        "ko": "실례지만 어떻게 불러드리면 될까요?"
+      },
+      "difficulty": 3,
+      "tags": [
+        "formal",
+        "address"
+      ],
+      "active": true
+    },
+    {
+      "id": "first-meet_neutral_0018",
+      "categoryId": "first-meet",
+      "word": "Можно на ты?",
+      "stress": "Мо́жно на ты?",
+      "transliteration": "mozhno na ty",
+      "pronunciationKo": "모쥬나 나 뜨이",
+      "partOfSpeech": "question",
+      "tone": "CASUAL",
+      "situationHint": "조금 친해져 반말로 전환해도 되는지 물을 때",
+      "usageNote": "관계가 풀렸을 때만 쓰는 게 자연스럽다",
+      "pairKey": "switch_to_ty",
+      "contextTag": "호칭전환",
+      "meanings": [
+        "말 편하게 해도 될까?"
+      ],
+      "example": {
+        "ru": "Мы уже познакомились, можно на ты?",
+        "ko": "우리 이제 인사도 했으니 말 편하게 해도 될까?"
+      },
+      "difficulty": 2,
+      "tags": [
+        "casual",
+        "address"
+      ],
+      "active": true
+    },
+    {
+      "id": "first-meet_neutral_0019",
+      "categoryId": "first-meet",
+      "word": "Я вас запомню",
+      "stress": "Я вас запо́мню",
+      "transliteration": "ya vas zapomnyu",
+      "pronunciationKo": "야 바스 자폼뉴",
+      "partOfSpeech": "phrase",
+      "tone": "NEUTRAL",
+      "situationHint": "인상 깊었다는 뉘앙스를 줄 때",
+      "usageNote": "상황에 따라 호감 표현처럼 들릴 수 있어 부드럽게 쓴다",
+      "pairKey": "memorable_person",
+      "contextTag": "인상",
+      "meanings": [
+        "기억해두겠습니다"
+      ],
+      "example": {
+        "ru": "У вас необычное имя, я вас запомню.",
+        "ko": "이름이 독특해서 기억해두겠습니다."
+      },
+      "difficulty": 2,
+      "tags": [
+        "impression",
+        "memory"
+      ],
+      "active": true
+    },
+    {
+      "id": "first-meet_formal_0020",
+      "categoryId": "first-meet",
+      "word": "Спасибо за встречу",
+      "stress": "Спаси́бо за встре́чу",
+      "transliteration": "spasibo za vstrechu",
+      "pronunciationKo": "스빠시-바 자 프스트레추",
+      "partOfSpeech": "phrase",
+      "tone": "FORMAL",
+      "situationHint": "첫 미팅이나 소개 자리 후 감사할 때",
+      "usageNote": "비즈니스 마무리 표현으로 깔끔하다",
+      "pairKey": "thanks_for_meeting",
+      "contextTag": "감사",
+      "meanings": [
+        "만나 주셔서 감사합니다"
+      ],
+      "example": {
+        "ru": "Спасибо за встречу, было полезно.",
+        "ko": "만나 주셔서 감사합니다. 유익했습니다."
+      },
+      "difficulty": 1,
+      "tags": [
+        "thanks",
+        "meeting"
+      ],
+      "active": true
+    },
+    {
+      "id": "first-meet_neutral_0021",
+      "categoryId": "first-meet",
+      "word": "Давайте обменяемся контактами",
+      "stress": "Дава́йте обменя́емся контакта́ми",
+      "transliteration": "davayte obmenyaemsya kontaktami",
+      "pronunciationKo": "다바이쩨 압메냐엠샤 콘딱따미",
+      "partOfSpeech": "phrase",
+      "tone": "NEUTRAL",
+      "situationHint": "연락처를 주고받자고 제안할 때",
+      "usageNote": "업무와 사적 상황 모두에 쓸 수 있는 중립 표현이다",
+      "pairKey": "exchange_contacts",
+      "contextTag": "연락처",
+      "meanings": [
+        "연락처를 교환해요"
+      ],
+      "example": {
+        "ru": "Давайте обменяемся контактами после встречи.",
+        "ko": "미팅 후에 연락처를 교환해요."
+      },
+      "difficulty": 2,
+      "tags": [
+        "contacts",
+        "networking"
+      ],
+      "active": true
+    },
+    {
+      "id": "first-meet_formal_0022",
+      "categoryId": "first-meet",
+      "word": "Вот моя визитка",
+      "stress": "Вот моя́ визи́тка",
+      "transliteration": "vot moya vizitka",
+      "pronunciationKo": "봇 마야 비지-뜨까",
+      "partOfSpeech": "phrase",
+      "tone": "FORMAL",
+      "situationHint": "명함을 건넬 때",
+      "usageNote": "업무 자리에서 자연스럽고 짧게 쓸 수 있다",
+      "pairKey": "give_business_card",
+      "contextTag": "비즈니스",
+      "meanings": [
+        "제 명함입니다"
+      ],
+      "example": {
+        "ru": "Вот моя визитка, буду на связи.",
+        "ko": "제 명함입니다. 계속 연락드리겠습니다."
+      },
+      "difficulty": 1,
+      "tags": [
+        "business",
+        "card"
+      ],
+      "active": true
+    },
+    {
+      "id": "first-meet_neutral_0023",
+      "categoryId": "first-meet",
+      "word": "Мы раньше не встречались?",
+      "stress": "Мы ра́ньше не встреча́лись?",
+      "transliteration": "my ran'she ne vstrechalis",
+      "pronunciationKo": "므이 란셰 니 프스트레찰리스",
+      "partOfSpeech": "question",
+      "tone": "NEUTRAL",
+      "situationHint": "어디선가 본 듯할 때 조심스럽게 물을 때",
+      "usageNote": "확신이 없을 때 부드럽게 말을 트기 좋다",
+      "pairKey": "seen_before",
+      "contextTag": "기억",
+      "meanings": [
+        "우리 전에 만난 적 없나요?"
+      ],
+      "example": {
+        "ru": "Мы раньше не встречались на выставке?",
+        "ko": "우리 전에 전시회에서 만난 적 없나요?"
+      },
+      "difficulty": 3,
+      "tags": [
+        "question",
+        "memory"
+      ],
+      "active": true
+    },
+    {
+      "id": "first-meet_neutral_0024",
+      "categoryId": "first-meet",
+      "word": "Вы хорошо говорите по-русски",
+      "stress": "Вы хорошо́ говори́те по-ру́сски",
+      "transliteration": "vy khorosho govorite po-russki",
+      "pronunciationKo": "븨 하라쇼 가바리-쩨 빠 루-스끼",
+      "partOfSpeech": "phrase",
+      "tone": "NEUTRAL",
+      "situationHint": "상대의 러시아어 실력을 칭찬할 때",
+      "usageNote": "상대가 외국어 학습자일 때 분위기를 부드럽게 만든다",
+      "pairKey": "compliment_language",
+      "contextTag": "칭찬",
+      "meanings": [
+        "러시아어 잘하시네요"
+      ],
+      "example": {
+        "ru": "Вы хорошо говорите по-русски, я впечатлён.",
+        "ko": "러시아어 잘하시네요, 인상적이에요."
+      },
+      "difficulty": 2,
+      "tags": [
+        "compliment",
+        "language"
+      ],
+      "active": true
+    },
+    {
+      "id": "first-meet_neutral_0025",
+      "categoryId": "first-meet",
+      "word": "Надеюсь, мы ещё увидимся",
+      "stress": "Наде́юсь, мы ещё уви́димся",
+      "transliteration": "nadeyus my eshchyo uvidimsya",
+      "pronunciationKo": "나데유스 므이 이쇼 우비딤샤",
+      "partOfSpeech": "phrase",
+      "tone": "NEUTRAL",
+      "situationHint": "처음 만남을 긍정적으로 마무리할 때",
+      "usageNote": "지나치게 무겁지 않고 좋은 인상을 남긴다",
+      "pairKey": "hope_see_again",
+      "contextTag": "마무리",
+      "meanings": [
+        "또 뵐 수 있으면 좋겠어요"
+      ],
+      "example": {
+        "ru": "Надеюсь, мы ещё увидимся на следующем мероприятии.",
+        "ko": "다음 행사에서 또 뵐 수 있으면 좋겠어요."
+      },
+      "difficulty": 2,
+      "tags": [
+        "closing",
+        "meeting"
+      ],
+      "active": true
+    },
+    {
+      "id": "small-talk_neutral_0001",
+      "categoryId": "small-talk",
+      "word": "Как дела?",
+      "stress": "Как дела́?",
+      "transliteration": "kak dela",
+      "pronunciationKo": "깍 딜라",
+      "partOfSpeech": "question",
+      "tone": "NEUTRAL",
+      "situationHint": "안부를 가볍게 물을 때",
+      "usageNote": "가장 흔한 안부 표현이라 어디서든 무난하다",
+      "pairKey": "how_are_you",
+      "contextTag": "안부",
+      "meanings": [
+        "잘 지내?"
+      ],
+      "example": {
+        "ru": "Как дела? Давно не виделись.",
+        "ko": "잘 지내? 오랜만이야."
+      },
+      "difficulty": 1,
+      "tags": [
+        "smalltalk",
+        "basic"
+      ],
+      "active": true
+    },
+    {
+      "id": "small-talk_casual_0002",
+      "categoryId": "small-talk",
+      "word": "Как жизнь?",
+      "stress": "Как жизнь?",
+      "transliteration": "kak zhizn",
+      "pronunciationKo": "깍 쥐즌",
+      "partOfSpeech": "question",
+      "tone": "CASUAL",
+      "situationHint": "조금 더 캐주얼하게 근황을 물을 때",
+      "usageNote": "친한 사이에서 자연스럽고 말맛이 있다",
+      "pairKey": "how_is_life",
+      "contextTag": "근황",
+      "meanings": [
+        "요즘 어때?"
+      ],
+      "example": {
+        "ru": "Как жизнь? Всё спокойно?",
+        "ko": "요즘 어때? 별일 없지?"
+      },
+      "difficulty": 1,
+      "tags": [
+        "casual",
+        "life"
+      ],
+      "active": true
+    },
+    {
+      "id": "small-talk_neutral_0003",
+      "categoryId": "small-talk",
+      "word": "Что нового?",
+      "stress": "Что но́вого?",
+      "transliteration": "chto novogo",
+      "pronunciationKo": "쉬또 노버바",
+      "partOfSpeech": "question",
+      "tone": "NEUTRAL",
+      "situationHint": "최근 새 소식을 물을 때",
+      "usageNote": "짧고 편하게 대화를 열기 좋다",
+      "pairKey": "whats_new",
+      "contextTag": "근황",
+      "meanings": [
+        "새 소식 있어?"
+      ],
+      "example": {
+        "ru": "Что нового у тебя на работе?",
+        "ko": "회사에서는 새 소식 있어?"
+      },
+      "difficulty": 1,
+      "tags": [
+        "news",
+        "smalltalk"
+      ],
+      "active": true
+    },
+    {
+      "id": "small-talk_neutral_0004",
+      "categoryId": "small-talk",
+      "word": "Как прошёл день?",
+      "stress": "Как прошёл день?",
+      "transliteration": "kak proshel den",
+      "pronunciationKo": "깍 빠쇼-을 젠",
+      "partOfSpeech": "question",
+      "tone": "NEUTRAL",
+      "situationHint": "하루를 어떻게 보냈는지 물을 때",
+      "usageNote": "저녁 대화에서 특히 자연스럽다",
+      "pairKey": "how_was_day",
+      "contextTag": "일상",
+      "meanings": [
+        "오늘 하루 어땠어?"
+      ],
+      "example": {
+        "ru": "Как прошёл день? Не устал?",
+        "ko": "오늘 하루 어땠어? 안 힘들었어?"
+      },
+      "difficulty": 1,
+      "tags": [
+        "day",
+        "conversation"
+      ],
+      "active": true
+    },
+    {
+      "id": "small-talk_neutral_0005",
+      "categoryId": "small-talk",
+      "word": "Чем занимаешься?",
+      "stress": "Чем занима́ешься?",
+      "transliteration": "chem zanimaeshsya",
+      "pronunciationKo": "쳄 자니마-예시샤",
+      "partOfSpeech": "question",
+      "tone": "NEUTRAL",
+      "situationHint": "상대가 지금 뭐 하는 중인지 물을 때",
+      "usageNote": "대화나 채팅에서 아주 자주 쓴다",
+      "pairKey": "what_are_you_doing",
+      "contextTag": "현재상황",
+      "meanings": [
+        "뭐 하고 있어?"
+      ],
+      "example": {
+        "ru": "Чем занимаешься вечером?",
+        "ko": "저녁에 뭐 하고 있어?"
+      },
+      "difficulty": 1,
+      "tags": [
+        "question",
+        "activity"
+      ],
+      "active": true
+    },
+    {
+      "id": "small-talk_neutral_0006",
+      "categoryId": "small-talk",
+      "word": "Как погода?",
+      "stress": "Как пого́да?",
+      "transliteration": "kak pogoda",
+      "pronunciationKo": "깍 빠고-다",
+      "partOfSpeech": "question",
+      "tone": "NEUTRAL",
+      "situationHint": "날씨로 가볍게 말을 시작할 때",
+      "usageNote": "처음엔 안전한 주제로 자주 선택된다",
+      "pairKey": "weather_talk",
+      "contextTag": "날씨",
+      "meanings": [
+        "날씨 어때?"
+      ],
+      "example": {
+        "ru": "Как погода у вас сегодня?",
+        "ko": "오늘 거기 날씨 어때?"
+      },
+      "difficulty": 1,
+      "tags": [
+        "weather",
+        "smalltalk"
+      ],
+      "active": true
+    },
+    {
+      "id": "small-talk_neutral_0007",
+      "categoryId": "small-talk",
+      "word": "Сегодня холодно",
+      "stress": "Сего́дня хо́лодно",
+      "transliteration": "segodnya holodno",
+      "pronunciationKo": "시보드냐 할라드나",
+      "partOfSpeech": "phrase",
+      "tone": "NEUTRAL",
+      "situationHint": "추운 날씨를 말할 때",
+      "usageNote": "러시아어에서 날씨 표현은 부사처럼 짧게 말하는 경우가 많다",
+      "pairKey": "today_cold",
+      "contextTag": "날씨",
+      "meanings": [
+        "오늘 춥다"
+      ],
+      "example": {
+        "ru": "Сегодня холодно, возьми куртку.",
+        "ko": "오늘 춥다, 재킷 챙겨."
+      },
+      "difficulty": 1,
+      "tags": [
+        "weather",
+        "comment"
+      ],
+      "active": true
+    },
+    {
+      "id": "small-talk_neutral_0008",
+      "categoryId": "small-talk",
+      "word": "Сегодня жарко",
+      "stress": "Сего́дня жа́рко",
+      "transliteration": "segodnya zharko",
+      "pronunciationKo": "시보드냐 쟈르까",
+      "partOfSpeech": "phrase",
+      "tone": "NEUTRAL",
+      "situationHint": "더운 날씨를 말할 때",
+      "usageNote": "날씨뿐 아니라 방 안 상태에도 쓸 수 있다",
+      "pairKey": "today_hot",
+      "contextTag": "날씨",
+      "meanings": [
+        "오늘 덥다"
+      ],
+      "example": {
+        "ru": "Сегодня жарко, откроем окно?",
+        "ko": "오늘 덥다, 창문 열까?"
+      },
+      "difficulty": 1,
+      "tags": [
+        "weather",
+        "comment"
+      ],
+      "active": true
+    },
+    {
+      "id": "small-talk_neutral_0009",
+      "categoryId": "small-talk",
+      "word": "Я немного устал",
+      "stress": "Я немно́го уста́л",
+      "transliteration": "ya nemnogo ustal",
+      "pronunciationKo": "야 니므노거 우스딸",
+      "partOfSpeech": "phrase",
+      "tone": "NEUTRAL",
+      "situationHint": "피곤한 상태를 가볍게 말할 때",
+      "usageNote": "불평보다는 상태 전달 느낌으로 들린다",
+      "pairKey": "a_bit_tired",
+      "contextTag": "상태",
+      "meanings": [
+        "나 좀 피곤해"
+      ],
+      "example": {
+        "ru": "Я немного устал после дороги.",
+        "ko": "이동하고 나서 좀 피곤해."
+      },
+      "difficulty": 1,
+      "tags": [
+        "feeling",
+        "day"
+      ],
+      "active": true
+    },
+    {
+      "id": "small-talk_casual_0010",
+      "categoryId": "small-talk",
+      "word": "Нормально",
+      "stress": "Норма́льно",
+      "transliteration": "normalno",
+      "pronunciationKo": "나르말나",
+      "partOfSpeech": "response",
+      "tone": "CASUAL",
+      "situationHint": "안부에 무난하게 답할 때",
+      "usageNote": "감정이 크지 않은 담백한 대답이다",
+      "pairKey": "fine_response",
+      "contextTag": "대답",
+      "meanings": [
+        "그냥 괜찮아",
+        "무난해"
+      ],
+      "example": {
+        "ru": "— Как дела? — Нормально.",
+        "ko": "— 잘 지내? — 그냥 괜찮아."
+      },
+      "difficulty": 1,
+      "tags": [
+        "answer",
+        "basic"
+      ],
+      "active": true
+    },
+    {
+      "id": "small-talk_neutral_0011",
+      "categoryId": "small-talk",
+      "word": "Всё хорошо",
+      "stress": "Всё хорошо́",
+      "transliteration": "vsyo horosho",
+      "pronunciationKo": "프쇼 하라쇼",
+      "partOfSpeech": "response",
+      "tone": "NEUTRAL",
+      "situationHint": "상태가 좋다고 말할 때",
+      "usageNote": "따뜻하고 긍정적인 대답이라 자주 쓰인다",
+      "pairKey": "all_good",
+      "contextTag": "대답",
+      "meanings": [
+        "다 잘 돼",
+        "괜찮아"
+      ],
+      "example": {
+        "ru": "Не переживай, всё хорошо.",
+        "ko": "걱정하지 마, 다 괜찮아."
+      },
+      "difficulty": 1,
+      "tags": [
+        "answer",
+        "positive"
+      ],
+      "active": true
+    },
+    {
+      "id": "small-talk_neutral_0012",
+      "categoryId": "small-talk",
+      "word": "Не жалуюсь",
+      "stress": "Не жа́луюсь",
+      "transliteration": "ne zhaluyus",
+      "pronunciationKo": "니 잘류스",
+      "partOfSpeech": "response",
+      "tone": "NEUTRAL",
+      "situationHint": "크게 불만은 없다고 말할 때",
+      "usageNote": "약간의 유머를 섞은 담담한 답변으로 들린다",
+      "pairKey": "not_complaining",
+      "contextTag": "대답",
+      "meanings": [
+        "나쁘지 않아",
+        "불평할 정도는 아니야"
+      ],
+      "example": {
+        "ru": "Работы много, но не жалуюсь.",
+        "ko": "일은 많지만 나쁘진 않아."
+      },
+      "difficulty": 2,
+      "tags": [
+        "answer",
+        "humor"
+      ],
+      "active": true
+    },
+    {
+      "id": "small-talk_neutral_0013",
+      "categoryId": "small-talk",
+      "word": "Давно не виделись",
+      "stress": "Давно́ не ви́делись",
+      "transliteration": "davno ne videlis",
+      "pronunciationKo": "다브노 니 비딜리스",
+      "partOfSpeech": "phrase",
+      "tone": "NEUTRAL",
+      "situationHint": "오랜만에 만났을 때",
+      "usageNote": "재회의 시작에서 아주 자연스럽다",
+      "pairKey": "long_time_no_see",
+      "contextTag": "재회",
+      "meanings": [
+        "오랜만이다"
+      ],
+      "example": {
+        "ru": "Давно не виделись, ты совсем не изменился.",
+        "ko": "오랜만이다, 너 정말 하나도 안 변했네."
+      },
+      "difficulty": 1,
+      "tags": [
+        "reunion",
+        "basic"
+      ],
+      "active": true
+    },
+    {
+      "id": "small-talk_casual_0014",
+      "categoryId": "small-talk",
+      "word": "Как настроение?",
+      "stress": "Как настрое́ние?",
+      "transliteration": "kak nastroyenie",
+      "pronunciationKo": "깍 나스트라예니예",
+      "partOfSpeech": "question",
+      "tone": "CASUAL",
+      "situationHint": "기분 상태를 가볍게 물을 때",
+      "usageNote": "친근하면서도 배려 있는 질문이다",
+      "pairKey": "hows_mood",
+      "contextTag": "감정",
+      "meanings": [
+        "기분 어때?"
+      ],
+      "example": {
+        "ru": "Как настроение с утра?",
+        "ko": "아침부터 기분 어때?"
+      },
+      "difficulty": 1,
+      "tags": [
+        "mood",
+        "question"
+      ],
+      "active": true
+    },
+    {
+      "id": "small-talk_neutral_0015",
+      "categoryId": "small-talk",
+      "word": "У меня всё по-старому",
+      "stress": "У меня́ всё по-ста́рому",
+      "transliteration": "u menya vsyo po-staromu",
+      "pronunciationKo": "우 미냐 프쇼 빠 스타르무",
+      "partOfSpeech": "phrase",
+      "tone": "NEUTRAL",
+      "situationHint": "별다른 변화가 없다고 말할 때",
+      "usageNote": "근황 질문에 차분하게 답할 때 좋다",
+      "pairKey": "same_as_usual",
+      "contextTag": "근황답변",
+      "meanings": [
+        "나는 늘 똑같아",
+        "별일 없어"
+      ],
+      "example": {
+        "ru": "У меня всё по-старому, работа-дом.",
+        "ko": "나는 별일 없어, 회사 집 반복이야."
+      },
+      "difficulty": 2,
+      "tags": [
+        "routine",
+        "answer"
+      ],
+      "active": true
+    },
+    {
+      "id": "small-talk_neutral_0016",
+      "categoryId": "small-talk",
+      "word": "Сейчас занято",
+      "stress": "Сейчас за́нято",
+      "transliteration": "seychas zanyato",
+      "pronunciationKo": "세이차스 자냐따",
+      "partOfSpeech": "phrase",
+      "tone": "NEUTRAL",
+      "situationHint": "지금은 바쁘다고 할 때",
+      "usageNote": "통화나 메시지에서 짧게 상태를 알리기 좋다",
+      "pairKey": "busy_now",
+      "contextTag": "상태",
+      "meanings": [
+        "지금 바빠"
+      ],
+      "example": {
+        "ru": "Извини, сейчас занято, напишу позже.",
+        "ko": "미안, 지금 바빠서 나중에 연락할게."
+      },
+      "difficulty": 1,
+      "tags": [
+        "busy",
+        "chat"
+      ],
+      "active": true
+    },
+    {
+      "id": "small-talk_neutral_0017",
+      "categoryId": "small-talk",
+      "word": "Позже созвонимся",
+      "stress": "По́зже созвони́мся",
+      "transliteration": "pozzhe sozvonimsya",
+      "pronunciationKo": "포-제 사즈바님샤",
+      "partOfSpeech": "phrase",
+      "tone": "NEUTRAL",
+      "situationHint": "나중에 통화하자고 할 때",
+      "usageNote": "메시지 대화를 자연스럽게 마무리할 수 있다",
+      "pairKey": "call_later",
+      "contextTag": "약속",
+      "meanings": [
+        "나중에 통화하자"
+      ],
+      "example": {
+        "ru": "Я выхожу, позже созвонимся.",
+        "ko": "나 지금 나가, 나중에 통화하자."
+      },
+      "difficulty": 2,
+      "tags": [
+        "call",
+        "plan"
+      ],
+      "active": true
+    },
+    {
+      "id": "small-talk_neutral_0018",
+      "categoryId": "small-talk",
+      "word": "Что планируешь на выходные?",
+      "stress": "Что плани́руешь на выходны́е?",
+      "transliteration": "chto planiruyesh na vyhodnye",
+      "pronunciationKo": "쉬또 쁠라니루예시 나 븨하드늬예",
+      "partOfSpeech": "question",
+      "tone": "NEUTRAL",
+      "situationHint": "주말 계획을 물을 때",
+      "usageNote": "부담이 적어서 대화를 이어가기 좋다",
+      "pairKey": "weekend_plan",
+      "contextTag": "주말",
+      "meanings": [
+        "주말에 뭐 할 계획이야?"
+      ],
+      "example": {
+        "ru": "Что планируешь на выходные, есть идеи?",
+        "ko": "주말에 뭐 할 계획이야, 생각해둔 거 있어?"
+      },
+      "difficulty": 2,
+      "tags": [
+        "weekend",
+        "question"
+      ],
+      "active": true
+    },
+    {
+      "id": "small-talk_neutral_0019",
+      "categoryId": "small-talk",
+      "word": "Я дома",
+      "stress": "Я до́ма",
+      "transliteration": "ya doma",
+      "pronunciationKo": "야 도마",
+      "partOfSpeech": "phrase",
+      "tone": "NEUTRAL",
+      "situationHint": "현재 집에 있다고 말할 때",
+      "usageNote": "위치 공유나 약속 조율에 유용하다",
+      "pairKey": "at_home",
+      "contextTag": "위치",
+      "meanings": [
+        "나 집이야"
+      ],
+      "example": {
+        "ru": "Я дома, можешь звонить.",
+        "ko": "나 집이야, 전화해도 돼."
+      },
+      "difficulty": 1,
+      "tags": [
+        "location",
+        "status"
+      ],
+      "active": true
+    },
+    {
+      "id": "small-talk_neutral_0020",
+      "categoryId": "small-talk",
+      "word": "Я в пути",
+      "stress": "Я в пути́",
+      "transliteration": "ya v puti",
+      "pronunciationKo": "야 브 푸티",
+      "partOfSpeech": "phrase",
+      "tone": "NEUTRAL",
+      "situationHint": "이동 중이라고 말할 때",
+      "usageNote": "약속에 늦을 때 상황 설명으로 자주 쓴다",
+      "pairKey": "on_my_way",
+      "contextTag": "이동",
+      "meanings": [
+        "나 가는 중이야"
+      ],
+      "example": {
+        "ru": "Я в пути, буду через десять минут.",
+        "ko": "나 가는 중이야, 10분 뒤 도착해."
+      },
+      "difficulty": 1,
+      "tags": [
+        "movement",
+        "status"
+      ],
+      "active": true
+    },
+    {
+      "id": "small-talk_neutral_0021",
+      "categoryId": "small-talk",
+      "word": "Ты уже поел?",
+      "stress": "Ты уже́ пое́л?",
+      "transliteration": "ty uzhe poyel",
+      "pronunciationKo": "뜨이 우제 빠옐",
+      "partOfSpeech": "question",
+      "tone": "NEUTRAL",
+      "situationHint": "식사 여부를 물을 때",
+      "usageNote": "친근하고 일상적인 관심 표현이다",
+      "pairKey": "have_you_eaten",
+      "contextTag": "식사",
+      "meanings": [
+        "밥 먹었어?"
+      ],
+      "example": {
+        "ru": "Ты уже поел или пойдём вместе?",
+        "ko": "밥 먹었어, 아니면 같이 갈까?"
+      },
+      "difficulty": 1,
+      "tags": [
+        "food",
+        "care"
+      ],
+      "active": true
+    },
+    {
+      "id": "small-talk_neutral_0022",
+      "categoryId": "small-talk",
+      "word": "Я только проснулся",
+      "stress": "Я то́лько просну́лся",
+      "transliteration": "ya tolko prosnulsya",
+      "pronunciationKo": "야 똘까 쁘라스눌샤",
+      "partOfSpeech": "phrase",
+      "tone": "NEUTRAL",
+      "situationHint": "방금 일어났다고 할 때",
+      "usageNote": "늦은 답장 이유로도 자주 쓴다",
+      "pairKey": "just_woke_up",
+      "contextTag": "상태",
+      "meanings": [
+        "방금 일어났어"
+      ],
+      "example": {
+        "ru": "Прости, я только проснулся.",
+        "ko": "미안, 나 방금 일어났어."
+      },
+      "difficulty": 1,
+      "tags": [
+        "sleep",
+        "chat"
+      ],
+      "active": true
+    },
+    {
+      "id": "small-talk_neutral_0023",
+      "categoryId": "small-talk",
+      "word": "Сегодня много дел",
+      "stress": "Сего́дня мно́го дел",
+      "transliteration": "segodnya mnogo del",
+      "pronunciationKo": "시보드냐 므노거 젤",
+      "partOfSpeech": "phrase",
+      "tone": "NEUTRAL",
+      "situationHint": "오늘 할 일이 많다고 할 때",
+      "usageNote": "바쁜 하루를 무겁지 않게 말할 수 있다",
+      "pairKey": "many_tasks",
+      "contextTag": "일정",
+      "meanings": [
+        "오늘 할 일이 많아"
+      ],
+      "example": {
+        "ru": "Сегодня много дел, но вечером свободен.",
+        "ko": "오늘 할 일이 많지만 저녁엔 한가해."
+      },
+      "difficulty": 1,
+      "tags": [
+        "schedule",
+        "busy"
+      ],
+      "active": true
+    },
+    {
+      "id": "small-talk_casual_0024",
+      "categoryId": "small-talk",
+      "word": "Скучно",
+      "stress": "Ску́чно",
+      "transliteration": "skuchno",
+      "pronunciationKo": "스꾸츠나",
+      "partOfSpeech": "phrase",
+      "tone": "CASUAL",
+      "situationHint": "심심하다고 말할 때",
+      "usageNote": "가볍게 대화를 시작하거나 놀자고 유도할 때 쓴다",
+      "pairKey": "im_bored",
+      "contextTag": "상태",
+      "meanings": [
+        "심심해"
+      ],
+      "example": {
+        "ru": "Скучно, давай куда-нибудь выйдем.",
+        "ko": "심심한데 어디 나갈까?"
+      },
+      "difficulty": 1,
+      "tags": [
+        "bored",
+        "casual"
+      ],
+      "active": true
+    },
+    {
+      "id": "small-talk_neutral_0025",
+      "categoryId": "small-talk",
+      "word": "Я скоро вернусь",
+      "stress": "Я ско́ро верну́сь",
+      "transliteration": "ya skoro vernus",
+      "pronunciationKo": "야 스꼬라 비르누스",
+      "partOfSpeech": "phrase",
+      "tone": "NEUTRAL",
+      "situationHint": "곧 돌아오겠다고 말할 때",
+      "usageNote": "잠깐 자리 비울 때 쓰기 좋다",
+      "pairKey": "be_back_soon",
+      "contextTag": "상태",
+      "meanings": [
+        "금방 돌아올게"
+      ],
+      "example": {
+        "ru": "Подожди, я скоро вернусь.",
+        "ko": "잠깐만, 금방 돌아올게."
+      },
+      "difficulty": 1,
+      "tags": [
+        "status",
+        "return"
+      ],
+      "active": true
+    },
+    {
+      "id": "emotions_neutral_0001",
+      "categoryId": "emotions",
+      "word": "Я рад",
+      "stress": "Я рад",
+      "transliteration": "ya rad",
+      "pronunciationKo": "야 랃",
+      "partOfSpeech": "phrase",
+      "tone": "NEUTRAL",
+      "situationHint": "좋은 일이 있어 기쁠 때",
+      "usageNote": "남성 화자 기준의 기본 기쁨 표현이다",
+      "pairKey": "feel_glad",
+      "contextTag": "기쁨",
+      "meanings": [
+        "기뻐",
+        "반가워"
+      ],
+      "example": {
+        "ru": "Я рад, что ты пришёл.",
+        "ko": "네가 와서 기뻐."
+      },
+      "difficulty": 1,
+      "tags": [
+        "emotion",
+        "positive"
+      ],
+      "active": true
+    },
+    {
+      "id": "emotions_neutral_0002",
+      "categoryId": "emotions",
+      "word": "Я счастлива",
+      "stress": "Я сча́стлива",
+      "transliteration": "ya schastliva",
+      "pronunciationKo": "야 샤슬리바",
+      "partOfSpeech": "phrase",
+      "tone": "NEUTRAL",
+      "situationHint": "아주 행복한 상태를 말할 때",
+      "usageNote": "여성 화자 형태로 감정이 크게 드러난다",
+      "pairKey": "feel_happy",
+      "contextTag": "행복",
+      "meanings": [
+        "행복해"
+      ],
+      "example": {
+        "ru": "Я счастлива сегодня без причины.",
+        "ko": "오늘은 이유 없이 행복해."
+      },
+      "difficulty": 1,
+      "tags": [
+        "emotion",
+        "joy"
+      ],
+      "active": true
+    },
+    {
+      "id": "emotions_neutral_0003",
+      "categoryId": "emotions",
+      "word": "Мне грустно",
+      "stress": "Мне гру́стно",
+      "transliteration": "mne grustno",
+      "pronunciationKo": "므녜 그루스뜨나",
+      "partOfSpeech": "phrase",
+      "tone": "NEUTRAL",
+      "situationHint": "슬플 때 상태를 말할 때",
+      "usageNote": "직접적이지만 과하지 않은 표현이다",
+      "pairKey": "feel_sad",
+      "contextTag": "슬픔",
+      "meanings": [
+        "슬퍼"
+      ],
+      "example": {
+        "ru": "Мне грустно после этого фильма.",
+        "ko": "그 영화 보고 슬퍼졌어."
+      },
+      "difficulty": 1,
+      "tags": [
+        "emotion",
+        "sad"
+      ],
+      "active": true
+    },
+    {
+      "id": "emotions_neutral_0004",
+      "categoryId": "emotions",
+      "word": "Я волнуюсь",
+      "stress": "Я волну́юсь",
+      "transliteration": "ya volnuyus",
+      "pronunciationKo": "야 발누유스",
+      "partOfSpeech": "phrase",
+      "tone": "NEUTRAL",
+      "situationHint": "긴장되거나 걱정될 때",
+      "usageNote": "시험, 발표, 첫 만남 등 폭넓게 쓸 수 있다",
+      "pairKey": "feel_nervous",
+      "contextTag": "긴장",
+      "meanings": [
+        "긴장돼",
+        "조금 걱정돼"
+      ],
+      "example": {
+        "ru": "Я волнуюсь перед встречей.",
+        "ko": "미팅 전에 좀 긴장돼."
+      },
+      "difficulty": 1,
+      "tags": [
+        "emotion",
+        "nervous"
+      ],
+      "active": true
+    },
+    {
+      "id": "emotions_neutral_0005",
+      "categoryId": "emotions",
+      "word": "Я спокоен",
+      "stress": "Я споко́ен",
+      "transliteration": "ya spokoyen",
+      "pronunciationKo": "야 스빠꼬엔",
+      "partOfSpeech": "phrase",
+      "tone": "NEUTRAL",
+      "situationHint": "마음이 차분하다고 할 때",
+      "usageNote": "남성 화자 기본형이며 상황을 안정적으로 전한다",
+      "pairKey": "feel_calm",
+      "contextTag": "안정",
+      "meanings": [
+        "차분해"
+      ],
+      "example": {
+        "ru": "Сейчас я спокоен и могу всё объяснить.",
+        "ko": "지금은 차분해서 다 설명할 수 있어."
+      },
+      "difficulty": 2,
+      "tags": [
+        "emotion",
+        "calm"
+      ],
+      "active": true
+    },
+    {
+      "id": "emotions_neutral_0006",
+      "categoryId": "emotions",
+      "word": "Мне неловко",
+      "stress": "Мне не́ловко",
+      "transliteration": "mne nelovko",
+      "pronunciationKo": "므녜 넬롭까",
+      "partOfSpeech": "phrase",
+      "tone": "NEUTRAL",
+      "situationHint": "민망하거나 어색할 때",
+      "usageNote": "사과 직전이나 분위기를 완화할 때 자주 쓴다",
+      "pairKey": "feel_awkward",
+      "contextTag": "어색함",
+      "meanings": [
+        "민망해",
+        "좀 어색해"
+      ],
+      "example": {
+        "ru": "Мне неловко за ту шутку.",
+        "ko": "그 농담은 좀 민망하네."
+      },
+      "difficulty": 2,
+      "tags": [
+        "emotion",
+        "awkward"
+      ],
+      "active": true
+    },
+    {
+      "id": "emotions_neutral_0007",
+      "categoryId": "emotions",
+      "word": "Я злюсь",
+      "stress": "Я злюсь",
+      "transliteration": "ya zlyus",
+      "pronunciationKo": "야 즐류스",
+      "partOfSpeech": "phrase",
+      "tone": "NEUTRAL",
+      "situationHint": "화가 날 때",
+      "usageNote": "직설적이라 감정이 분명히 전달된다",
+      "pairKey": "feel_angry",
+      "contextTag": "분노",
+      "meanings": [
+        "화났어"
+      ],
+      "example": {
+        "ru": "Я злюсь не на тебя, а на ситуацию.",
+        "ko": "너한테 화난 게 아니라 상황이 화나는 거야."
+      },
+      "difficulty": 2,
+      "tags": [
+        "emotion",
+        "anger"
+      ],
+      "active": true
+    },
+    {
+      "id": "emotions_neutral_0008",
+      "categoryId": "emotions",
+      "word": "Я раздражён",
+      "stress": "Я раздражён",
+      "transliteration": "ya razdrazhyon",
+      "pronunciationKo": "야 라즈드라죤",
+      "partOfSpeech": "phrase",
+      "tone": "NEUTRAL",
+      "situationHint": "짜증난 상태를 말할 때",
+      "usageNote": "남성 화자 형태로 예민함이 느껴진다",
+      "pairKey": "feel_annoyed",
+      "contextTag": "짜증",
+      "meanings": [
+        "짜증나"
+      ],
+      "example": {
+        "ru": "Я раздражён из-за шума.",
+        "ko": "소음 때문에 짜증나."
+      },
+      "difficulty": 2,
+      "tags": [
+        "emotion",
+        "annoyed"
+      ],
+      "active": true
+    },
+    {
+      "id": "emotions_neutral_0009",
+      "categoryId": "emotions",
+      "word": "Я переживаю",
+      "stress": "Я пережива́ю",
+      "transliteration": "ya perezhivayu",
+      "pronunciationKo": "야 삐리쥐바유",
+      "partOfSpeech": "phrase",
+      "tone": "NEUTRAL",
+      "situationHint": "누군가나 어떤 일 때문에 마음이 쓰일 때",
+      "usageNote": "걱정과 신경 쓰임이 함께 담긴 표현이다",
+      "pairKey": "feel_worried",
+      "contextTag": "걱정",
+      "meanings": [
+        "걱정돼",
+        "신경 쓰여"
+      ],
+      "example": {
+        "ru": "Я переживаю за твой ответ.",
+        "ko": "네 답장이 없어서 걱정돼."
+      },
+      "difficulty": 2,
+      "tags": [
+        "emotion",
+        "worry"
+      ],
+      "active": true
+    },
+    {
+      "id": "emotions_neutral_0010",
+      "categoryId": "emotions",
+      "word": "Мне обидно",
+      "stress": "Мне оби́дно",
+      "transliteration": "mne obidno",
+      "pronunciationKo": "므녜 아비드나",
+      "partOfSpeech": "phrase",
+      "tone": "NEUTRAL",
+      "situationHint": "서운하고 속상할 때",
+      "usageNote": "상대 말이나 행동에 상처받았을 때 자주 쓴다",
+      "pairKey": "feel_hurt",
+      "contextTag": "서운함",
+      "meanings": [
+        "서운해",
+        "속상해"
+      ],
+      "example": {
+        "ru": "Мне обидно, что ты не сказал сразу.",
+        "ko": "바로 말해주지 않아서 서운해."
+      },
+      "difficulty": 2,
+      "tags": [
+        "emotion",
+        "hurt"
+      ],
+      "active": true
+    },
+    {
+      "id": "emotions_neutral_0011",
+      "categoryId": "emotions",
+      "word": "Мне стыдно",
+      "stress": "Мне сты́дно",
+      "transliteration": "mne stydno",
+      "pronunciationKo": "므녜 스띄드나",
+      "partOfSpeech": "phrase",
+      "tone": "NEUTRAL",
+      "situationHint": "부끄럽거나 창피할 때",
+      "usageNote": "실수 후 반성하는 느낌이 강하다",
+      "pairKey": "feel_ashamed",
+      "contextTag": "창피",
+      "meanings": [
+        "창피해",
+        "부끄러워"
+      ],
+      "example": {
+        "ru": "Мне стыдно за свою ошибку.",
+        "ko": "내 실수 때문에 창피해."
+      },
+      "difficulty": 2,
+      "tags": [
+        "emotion",
+        "shame"
+      ],
+      "active": true
+    },
+    {
+      "id": "emotions_neutral_0012",
+      "categoryId": "emotions",
+      "word": "Я горжусь тобой",
+      "stress": "Я горжу́сь тобо́й",
+      "transliteration": "ya gorzhus toboy",
+      "pronunciationKo": "야 가르주스 따보이",
+      "partOfSpeech": "phrase",
+      "tone": "NEUTRAL",
+      "situationHint": "상대를 자랑스럽게 느낄 때",
+      "usageNote": "칭찬이 진하게 전달되는 따뜻한 말이다",
+      "pairKey": "proud_of_you",
+      "contextTag": "칭찬",
+      "meanings": [
+        "너가 자랑스러워"
+      ],
+      "example": {
+        "ru": "Я горжусь тобой, ты отлично справился.",
+        "ko": "너 정말 자랑스러워, 잘 해냈어."
+      },
+      "difficulty": 2,
+      "tags": [
+        "emotion",
+        "support"
+      ],
+      "active": true
+    },
+    {
+      "id": "emotions_neutral_0013",
+      "categoryId": "emotions",
+      "word": "Я благодарен",
+      "stress": "Я благода́рен",
+      "transliteration": "ya blagodaren",
+      "pronunciationKo": "야 블라고다-린",
+      "partOfSpeech": "phrase",
+      "tone": "NEUTRAL",
+      "situationHint": "진심으로 고마움을 느낄 때",
+      "usageNote": "남성 화자 형태이며 단순 спасибо보다 마음이 깊다",
+      "pairKey": "feel_grateful",
+      "contextTag": "감사",
+      "meanings": [
+        "정말 고마워"
+      ],
+      "example": {
+        "ru": "Я благодарен тебе за помощь.",
+        "ko": "도와줘서 정말 고마워."
+      },
+      "difficulty": 2,
+      "tags": [
+        "emotion",
+        "gratitude"
+      ],
+      "active": true
+    },
+    {
+      "id": "emotions_neutral_0014",
+      "categoryId": "emotions",
+      "word": "Я скучаю",
+      "stress": "Я скуча́ю",
+      "transliteration": "ya skuchayu",
+      "pronunciationKo": "야 스꾸차유",
+      "partOfSpeech": "phrase",
+      "tone": "NEUTRAL",
+      "situationHint": "누군가가 그립거나 보고 싶을 때",
+      "usageNote": "상대에게 직접 말하면 애정이 잘 전달된다",
+      "pairKey": "miss_you",
+      "contextTag": "그리움",
+      "meanings": [
+        "보고 싶어",
+        "그리워"
+      ],
+      "example": {
+        "ru": "Я скучаю по нашим разговорам.",
+        "ko": "우리 대화가 그리워."
+      },
+      "difficulty": 1,
+      "tags": [
+        "emotion",
+        "missing"
+      ],
+      "active": true
+    },
+    {
+      "id": "emotions_neutral_0015",
+      "categoryId": "emotions",
+      "word": "Я удивлён",
+      "stress": "Я удивлён",
+      "transliteration": "ya udivlyon",
+      "pronunciationKo": "야 우디블룐",
+      "partOfSpeech": "phrase",
+      "tone": "NEUTRAL",
+      "situationHint": "놀라거나 의외일 때",
+      "usageNote": "남성 화자 형태이며 차분한 놀람에 가깝다",
+      "pairKey": "feel_surprised",
+      "contextTag": "놀람",
+      "meanings": [
+        "놀랐어"
+      ],
+      "example": {
+        "ru": "Честно, я удивлён твоим ответом.",
+        "ko": "솔직히 네 답변에 놀랐어."
+      },
+      "difficulty": 2,
+      "tags": [
+        "emotion",
+        "surprise"
+      ],
+      "active": true
+    },
+    {
+      "id": "emotions_neutral_0016",
+      "categoryId": "emotions",
+      "word": "Я разочарован",
+      "stress": "Я разочаро́ван",
+      "transliteration": "ya razocharovan",
+      "pronunciationKo": "야 라자차로-반",
+      "partOfSpeech": "phrase",
+      "tone": "NEUTRAL",
+      "situationHint": "실망했을 때",
+      "usageNote": "기대가 무너졌다는 느낌이 분명하다",
+      "pairKey": "feel_disappointed",
+      "contextTag": "실망",
+      "meanings": [
+        "실망했어"
+      ],
+      "example": {
+        "ru": "Я разочарован результатом, но продолжу.",
+        "ko": "결과는 실망스럽지만 계속할 거야."
+      },
+      "difficulty": 2,
+      "tags": [
+        "emotion",
+        "disappointment"
+      ],
+      "active": true
+    },
+    {
+      "id": "emotions_neutral_0017",
+      "categoryId": "emotions",
+      "word": "Мне легче",
+      "stress": "Мне ле́гче",
+      "transliteration": "mne legche",
+      "pronunciationKo": "므녜 롁체",
+      "partOfSpeech": "phrase",
+      "tone": "NEUTRAL",
+      "situationHint": "마음이나 상황이 한결 나아졌을 때",
+      "usageNote": "걱정이 풀린 뒤 자주 쓰는 짧은 말이다",
+      "pairKey": "feel_relief",
+      "contextTag": "안도",
+      "meanings": [
+        "한결 나아졌어",
+        "마음이 놓여"
+      ],
+      "example": {
+        "ru": "После разговора мне легче.",
+        "ko": "얘기하고 나니 한결 나아졌어."
+      },
+      "difficulty": 1,
+      "tags": [
+        "emotion",
+        "relief"
+      ],
+      "active": true
+    },
+    {
+      "id": "emotions_neutral_0018",
+      "categoryId": "emotions",
+      "word": "Я вдохновлён",
+      "stress": "Я вдохновлён",
+      "transliteration": "ya vdohnovlyon",
+      "pronunciationKo": "야 브다흐나블룐",
+      "partOfSpeech": "phrase",
+      "tone": "NEUTRAL",
+      "situationHint": "의욕이 생기고 प्रेरित될 때",
+      "usageNote": "창작이나 공부 얘기에서 잘 어울린다",
+      "pairKey": "feel_inspired",
+      "contextTag": "영감",
+      "meanings": [
+        "의욕이 생겼어",
+        "영감 받았어"
+      ],
+      "example": {
+        "ru": "После поездки я вдохновлён работать дальше.",
+        "ko": "여행 후에 더 열심히 일할 의욕이 생겼어."
+      },
+      "difficulty": 3,
+      "tags": [
+        "emotion",
+        "motivation"
+      ],
+      "active": true
+    },
+    {
+      "id": "emotions_neutral_0019",
+      "categoryId": "emotions",
+      "word": "Я запутался",
+      "stress": "Я запу́тался",
+      "transliteration": "ya zaputalsya",
+      "pronunciationKo": "야 자푸딸샤",
+      "partOfSpeech": "phrase",
+      "tone": "NEUTRAL",
+      "situationHint": "헷갈리고 정리가 안 될 때",
+      "usageNote": "감정이든 정보든 뒤엉킨 상태에 널리 쓴다",
+      "pairKey": "feel_confused",
+      "contextTag": "혼란",
+      "meanings": [
+        "헷갈려",
+        "정리가 안 돼"
+      ],
+      "example": {
+        "ru": "Я запутался в этих правилах.",
+        "ko": "이 규칙들이 너무 헷갈려."
+      },
+      "difficulty": 2,
+      "tags": [
+        "emotion",
+        "confused"
+      ],
+      "active": true
+    },
+    {
+      "id": "emotions_neutral_0020",
+      "categoryId": "emotions",
+      "word": "Я устал от этого",
+      "stress": "Я уста́л от э́того",
+      "transliteration": "ya ustal ot etogo",
+      "pronunciationKo": "야 우스딸 아드 에따바",
+      "partOfSpeech": "phrase",
+      "tone": "NEUTRAL",
+      "situationHint": "같은 상황이 반복돼 지쳤을 때",
+      "usageNote": "상황에 대한 피로감이 강조된다",
+      "pairKey": "tired_of_it",
+      "contextTag": "지침",
+      "meanings": [
+        "이젠 지쳤어"
+      ],
+      "example": {
+        "ru": "Я устал от этого спора.",
+        "ko": "이 논쟁에 이제 지쳤어."
+      },
+      "difficulty": 2,
+      "tags": [
+        "emotion",
+        "fatigue"
+      ],
+      "active": true
+    },
+    {
+      "id": "emotions_neutral_0021",
+      "categoryId": "emotions",
+      "word": "Мне приятно это слышать",
+      "stress": "Мне прия́тно э́то слы́шать",
+      "transliteration": "mne priyatno eto slyshat",
+      "pronunciationKo": "므녜 쁘리야뜨나 에따 슬리샤찌",
+      "partOfSpeech": "phrase",
+      "tone": "NEUTRAL",
+      "situationHint": "좋은 말을 들어 기분 좋을 때",
+      "usageNote": "칭찬이나 배려에 반응할 때 부드럽다",
+      "pairKey": "glad_to_hear",
+      "contextTag": "반응",
+      "meanings": [
+        "그 말 들으니 기뻐"
+      ],
+      "example": {
+        "ru": "Мне приятно это слышать, спасибо.",
+        "ko": "그렇게 말해줘서 기뻐, 고마워."
+      },
+      "difficulty": 2,
+      "tags": [
+        "emotion",
+        "reaction"
+      ],
+      "active": true
+    },
+    {
+      "id": "emotions_neutral_0022",
+      "categoryId": "emotions",
+      "word": "Я нервничаю",
+      "stress": "Я не́рвничаю",
+      "transliteration": "ya nervnichayu",
+      "pronunciationKo": "야 네르브니차유",
+      "partOfSpeech": "phrase",
+      "tone": "NEUTRAL",
+      "situationHint": "불안해서 초조할 때",
+      "usageNote": "волнуюсь보다 더 신경이 곤두선 느낌이 난다",
+      "pairKey": "feel_anxious",
+      "contextTag": "불안",
+      "meanings": [
+        "초조해",
+        "신경 쓰여"
+      ],
+      "example": {
+        "ru": "Перед экзаменом я всегда нервничаю.",
+        "ko": "시험 전이면 늘 초조해."
+      },
+      "difficulty": 2,
+      "tags": [
+        "emotion",
+        "anxiety"
+      ],
+      "active": true
+    },
+    {
+      "id": "emotions_neutral_0023",
+      "categoryId": "emotions",
+      "word": "Я тронут",
+      "stress": "Я тро́нут",
+      "transliteration": "ya tronut",
+      "pronunciationKo": "야 뜨로눝",
+      "partOfSpeech": "phrase",
+      "tone": "NEUTRAL",
+      "situationHint": "감동받았을 때",
+      "usageNote": "조용하지만 깊은 감동을 전하는 표현이다",
+      "pairKey": "feel_touched",
+      "contextTag": "감동",
+      "meanings": [
+        "감동했어"
+      ],
+      "example": {
+        "ru": "Я тронут твоими словами.",
+        "ko": "네 말에 감동했어."
+      },
+      "difficulty": 3,
+      "tags": [
+        "emotion",
+        "touched"
+      ],
+      "active": true
+    },
+    {
+      "id": "emotions_neutral_0024",
+      "categoryId": "emotions",
+      "word": "Мне не по себе",
+      "stress": "Мне не по себе́",
+      "transliteration": "mne ne po sebe",
+      "pronunciationKo": "므녜 니 빠 시베",
+      "partOfSpeech": "phrase",
+      "tone": "NEUTRAL",
+      "situationHint": "괜히 불편하고 마음이 이상할 때",
+      "usageNote": "몸이 안 좋거나 찝찝한 감정에도 쓸 수 있다",
+      "pairKey": "feel_unsettled",
+      "contextTag": "불편함",
+      "meanings": [
+        "왠지 불편해",
+        "좀 이상해"
+      ],
+      "example": {
+        "ru": "После той новости мне не по себе.",
+        "ko": "그 소식 듣고 마음이 좀 불편해."
+      },
+      "difficulty": 3,
+      "tags": [
+        "emotion",
+        "uneasy"
+      ],
+      "active": true
+    },
+    {
+      "id": "emotions_neutral_0025",
+      "categoryId": "emotions",
+      "word": "Я воодушевлён",
+      "stress": "Я воодушевлён",
+      "transliteration": "ya voodushevlyon",
+      "pronunciationKo": "야 바아두셰블룐",
+      "partOfSpeech": "phrase",
+      "tone": "NEUTRAL",
+      "situationHint": "기대감과 열정이 올라왔을 때",
+      "usageNote": "공부나 프로젝트 시작 전 긍정적인 에너지를 보여준다",
+      "pairKey": "feel_excited_motivated",
+      "contextTag": "의욕",
+      "meanings": [
+        "의욕 넘쳐",
+        "들떴어"
+      ],
+      "example": {
+        "ru": "После твоей идеи я воодушевлён.",
+        "ko": "네 아이디어 듣고 의욕이 확 생겼어."
+      },
+      "difficulty": 3,
+      "tags": [
+        "emotion",
+        "enthusiasm"
+      ],
+      "active": true
+    },
+    {
+      "id": "light-chat_casual_0001",
+      "categoryId": "light-chat",
+      "word": "Ну что",
+      "stress": "Ну что́",
+      "transliteration": "nu chto",
+      "pronunciationKo": "누 쉬또",
+      "partOfSpeech": "phrase",
+      "tone": "CASUAL",
+      "situationHint": "말을 꺼내거나 분위기를 볼 때",
+      "usageNote": "짧지만 억양에 따라 의미가 크게 달라진다",
+      "pairKey": "so_well",
+      "contextTag": "대화시작",
+      "meanings": [
+        "그래서?",
+        "어때?"
+      ],
+      "example": {
+        "ru": "Ну что, пойдём уже?",
+        "ko": "그래서, 이제 갈까?"
+      },
+      "difficulty": 1,
+      "tags": [
+        "chat",
+        "starter"
+      ],
+      "active": true
+    },
+    {
+      "id": "light-chat_casual_0002",
+      "categoryId": "light-chat",
+      "word": "Серьёзно?",
+      "stress": "Серьёзно?",
+      "transliteration": "seryozno",
+      "pronunciationKo": "시료즈나",
+      "partOfSpeech": "question",
+      "tone": "CASUAL",
+      "situationHint": "상대 말이 믿기지 않을 때",
+      "usageNote": "놀람과 확인의 느낌이 함께 있다",
+      "pairKey": "seriously",
+      "contextTag": "반응",
+      "meanings": [
+        "진짜?",
+        "정말?"
+      ],
+      "example": {
+        "ru": "Ты выиграл? Серьёзно?",
+        "ko": "네가 이겼다고? 진짜?"
+      },
+      "difficulty": 1,
+      "tags": [
+        "reaction",
+        "surprise"
+      ],
+      "active": true
+    },
+    {
+      "id": "light-chat_casual_0003",
+      "categoryId": "light-chat",
+      "word": "Неужели?",
+      "stress": "Неу́жели?",
+      "transliteration": "neuzheli",
+      "pronunciationKo": "니우젤리",
+      "partOfSpeech": "question",
+      "tone": "CASUAL",
+      "situationHint": "의외라며 다시 확인할 때",
+      "usageNote": "문어 느낌도 조금 있지만 회화에서도 자주 쓴다",
+      "pairKey": "really_no_way",
+      "contextTag": "반응",
+      "meanings": [
+        "설마?",
+        "정말 그래?"
+      ],
+      "example": {
+        "ru": "Неужели ты сам это сделал?",
+        "ko": "설마 네가 직접 한 거야?"
+      },
+      "difficulty": 2,
+      "tags": [
+        "reaction",
+        "doubt"
+      ],
+      "active": true
+    },
+    {
+      "id": "light-chat_playful_0004",
+      "categoryId": "light-chat",
+      "word": "Вот это да",
+      "stress": "Вот э́то да",
+      "transliteration": "vot eto da",
+      "pronunciationKo": "보테따 다",
+      "partOfSpeech": "phrase",
+      "tone": "PLAYFUL",
+      "situationHint": "감탄하거나 웃긴 상황에서 반응할 때",
+      "usageNote": "부정적보다 놀람과 감탄 쪽에 가깝다",
+      "pairKey": "wow_reaction",
+      "contextTag": "감탄",
+      "meanings": [
+        "와 대박",
+        "이야"
+      ],
+      "example": {
+        "ru": "Вот это да, как быстро ты пришёл.",
+        "ko": "와 대박, 진짜 빨리 왔네."
+      },
+      "difficulty": 1,
+      "tags": [
+        "wow",
+        "reaction"
+      ],
+      "active": true
+    },
+    {
+      "id": "light-chat_casual_0005",
+      "categoryId": "light-chat",
+      "word": "Ладно",
+      "stress": "Ла́дно",
+      "transliteration": "ladno",
+      "pronunciationKo": "라드나",
+      "partOfSpeech": "phrase",
+      "tone": "CASUAL",
+      "situationHint": "수긍하거나 대화를 넘길 때",
+      "usageNote": "짧지만 러시아어 회화에서 아주 자주 들린다",
+      "pairKey": "alright",
+      "contextTag": "동의",
+      "meanings": [
+        "알겠어",
+        "됐어"
+      ],
+      "example": {
+        "ru": "Ладно, потом обсудим.",
+        "ko": "알겠어, 나중에 얘기하자."
+      },
+      "difficulty": 1,
+      "tags": [
+        "agreement",
+        "basic"
+      ],
+      "active": true
+    },
+    {
+      "id": "light-chat_casual_0006",
+      "categoryId": "light-chat",
+      "word": "Понятно",
+      "stress": "Поня́тно",
+      "transliteration": "ponyatno",
+      "pronunciationKo": "빠냣나",
+      "partOfSpeech": "phrase",
+      "tone": "CASUAL",
+      "situationHint": "이해했다고 할 때",
+      "usageNote": "상황에 따라 무미건조하게 들릴 수 있어 억양이 중요하다",
+      "pairKey": "got_it",
+      "contextTag": "이해",
+      "meanings": [
+        "알겠어",
+        "이해했어"
+      ],
+      "example": {
+        "ru": "Понятно, тогда жду тебя внизу.",
+        "ko": "알겠어, 그럼 아래에서 기다릴게."
+      },
+      "difficulty": 1,
+      "tags": [
+        "understanding",
+        "basic"
+      ],
+      "active": true
+    },
+    {
+      "id": "light-chat_casual_0007",
+      "categoryId": "light-chat",
+      "word": "Ясно",
+      "stress": "Я́сно",
+      "transliteration": "yasno",
+      "pronunciationKo": "야스나",
+      "partOfSpeech": "phrase",
+      "tone": "CASUAL",
+      "situationHint": "짧게 이해를 표시할 때",
+      "usageNote": "친한 사이에서는 자주 쓰지만 딱딱하게 들릴 수도 있다",
+      "pairKey": "clear_short",
+      "contextTag": "이해",
+      "meanings": [
+        "오케이",
+        "그렇구나"
+      ],
+      "example": {
+        "ru": "Ясно, теперь всё сходится.",
+        "ko": "그렇구나, 이제 다 맞아떨어지네."
+      },
+      "difficulty": 1,
+      "tags": [
+        "understanding",
+        "short"
+      ],
+      "active": true
+    },
+    {
+      "id": "light-chat_casual_0008",
+      "categoryId": "light-chat",
+      "word": "Бывает",
+      "stress": "Быва́ет",
+      "transliteration": "byvayet",
+      "pronunciationKo": "븨바예뜨",
+      "partOfSpeech": "phrase",
+      "tone": "CASUAL",
+      "situationHint": "그럴 때도 있다고 넘길 때",
+      "usageNote": "실수나 해프닝을 가볍게 받아넘기는 느낌이다",
+      "pairKey": "it_happens",
+      "contextTag": "위로",
+      "meanings": [
+        "그럴 수도 있지"
+      ],
+      "example": {
+        "ru": "Опоздал? Бывает.",
+        "ko": "늦었어? 그럴 수도 있지."
+      },
+      "difficulty": 1,
+      "tags": [
+        "comfort",
+        "casual"
+      ],
+      "active": true
+    },
+    {
+      "id": "light-chat_playful_0009",
+      "categoryId": "light-chat",
+      "word": "Ничего себе",
+      "stress": "Ничего́ себе́",
+      "transliteration": "nichego sebe",
+      "pronunciationKo": "니치보 시베",
+      "partOfSpeech": "phrase",
+      "tone": "PLAYFUL",
+      "situationHint": "놀라거나 감탄할 때",
+      "usageNote": "긍정·부정 둘 다 가능하지만 대체로 감탄으로 많이 쓴다",
+      "pairKey": "wow_nice",
+      "contextTag": "감탄",
+      "meanings": [
+        "와 장난 아니다",
+        "헐"
+      ],
+      "example": {
+        "ru": "Ничего себе, какой вид отсюда.",
+        "ko": "와, 여기서 보는 경치 장난 아니다."
+      },
+      "difficulty": 1,
+      "tags": [
+        "wow",
+        "expression"
+      ],
+      "active": true
+    },
+    {
+      "id": "light-chat_casual_0010",
+      "categoryId": "light-chat",
+      "word": "Не вопрос",
+      "stress": "Не вопро́с",
+      "transliteration": "ne vopros",
+      "pronunciationKo": "니 바쁘로스",
+      "partOfSpeech": "phrase",
+      "tone": "CASUAL",
+      "situationHint": "부탁에 흔쾌히 응할 때",
+      "usageNote": "친근하고 가벼운 OK 느낌이다",
+      "pairKey": "no_problem",
+      "contextTag": "응답",
+      "meanings": [
+        "문제없어",
+        "당연하지"
+      ],
+      "example": {
+        "ru": "Поможешь? — Не вопрос.",
+        "ko": "도와줄 수 있어? — 물론이지."
+      },
+      "difficulty": 1,
+      "tags": [
+        "help",
+        "reply"
+      ],
+      "active": true
+    },
+    {
+      "id": "light-chat_casual_0011",
+      "categoryId": "light-chat",
+      "word": "Без проблем",
+      "stress": "Без пробле́м",
+      "transliteration": "bez problem",
+      "pronunciationKo": "베스 쁘라블렘",
+      "partOfSpeech": "phrase",
+      "tone": "CASUAL",
+      "situationHint": "부탁이나 제안에 편하게 답할 때",
+      "usageNote": "회화와 채팅 모두에서 안정적으로 쓰인다",
+      "pairKey": "without_problems",
+      "contextTag": "응답",
+      "meanings": [
+        "괜찮아",
+        "문제없어"
+      ],
+      "example": {
+        "ru": "Я могу подождать, без проблем.",
+        "ko": "나 기다릴 수 있어, 괜찮아."
+      },
+      "difficulty": 1,
+      "tags": [
+        "reply",
+        "basic"
+      ],
+      "active": true
+    },
+    {
+      "id": "light-chat_playful_0012",
+      "categoryId": "light-chat",
+      "word": "Ну ты даёшь",
+      "stress": "Ну ты даёшь",
+      "transliteration": "nu ty dayosh",
+      "pronunciationKo": "누 뜨이 다요시",
+      "partOfSpeech": "phrase",
+      "tone": "PLAYFUL",
+      "situationHint": "상대 행동이 대단하거나 황당할 때",
+      "usageNote": "칭찬과 놀림 사이의 장난스러운 반응이다",
+      "pairKey": "you_re_something",
+      "contextTag": "장난반응",
+      "meanings": [
+        "너 진짜 대단하다",
+        "너 뭐야 진짜"
+      ],
+      "example": {
+        "ru": "Опять всё успел? Ну ты даёшь.",
+        "ko": "또 다 해냈어? 너 진짜 대단하다."
+      },
+      "difficulty": 2,
+      "tags": [
+        "playful",
+        "reaction"
+      ],
+      "active": true
+    },
+    {
+      "id": "light-chat_casual_0013",
+      "categoryId": "light-chat",
+      "word": "Идёт",
+      "stress": "Идёт",
+      "transliteration": "idyot",
+      "pronunciationKo": "이됻",
+      "partOfSpeech": "phrase",
+      "tone": "CASUAL",
+      "situationHint": "제안에 오케이할 때",
+      "usageNote": "짧고 구어적인 합의 표현이다",
+      "pairKey": "deal_ok",
+      "contextTag": "합의",
+      "meanings": [
+        "좋아",
+        "콜"
+      ],
+      "example": {
+        "ru": "В семь у метро? — Идёт.",
+        "ko": "7시에 지하철역? — 좋아."
+      },
+      "difficulty": 2,
+      "tags": [
+        "agreement",
+        "plan"
+      ],
+      "active": true
+    },
+    {
+      "id": "light-chat_casual_0014",
+      "categoryId": "light-chat",
+      "word": "Договорились",
+      "stress": "Договори́лись",
+      "transliteration": "dogovorilis",
+      "pronunciationKo": "다가바릴리스",
+      "partOfSpeech": "phrase",
+      "tone": "CASUAL",
+      "situationHint": "약속이 정해졌을 때",
+      "usageNote": "합의가 끝났다는 느낌이 분명하다",
+      "pairKey": "agreed",
+      "contextTag": "합의",
+      "meanings": [
+        "그렇게 하자",
+        "약속이야"
+      ],
+      "example": {
+        "ru": "Тогда завтра в два, договорились.",
+        "ko": "그럼 내일 두 시로, 그렇게 하자."
+      },
+      "difficulty": 1,
+      "tags": [
+        "agreement",
+        "plan"
+      ],
+      "active": true
+    },
+    {
+      "id": "light-chat_casual_0015",
+      "categoryId": "light-chat",
+      "word": "Не спеши",
+      "stress": "Не спеши́",
+      "transliteration": "ne spieshi",
+      "pronunciationKo": "니 스피쉬",
+      "partOfSpeech": "phrase",
+      "tone": "CASUAL",
+      "situationHint": "서두르지 말라고 할 때",
+      "usageNote": "상대를 진정시키는 부드러운 말이다",
+      "pairKey": "dont_rush",
+      "contextTag": "배려",
+      "meanings": [
+        "천천히 해",
+        "급하게 하지 마"
+      ],
+      "example": {
+        "ru": "Не спеши, у нас ещё есть время.",
+        "ko": "천천히 해, 아직 시간 있어."
+      },
+      "difficulty": 1,
+      "tags": [
+        "care",
+        "calm"
+      ],
+      "active": true
+    },
+    {
+      "id": "light-chat_casual_0016",
+      "categoryId": "light-chat",
+      "word": "Не переживай",
+      "stress": "Не пережива́й",
+      "transliteration": "ne perezhivay",
+      "pronunciationKo": "니 삐리지바이",
+      "partOfSpeech": "phrase",
+      "tone": "CASUAL",
+      "situationHint": "걱정하지 말라고 달랠 때",
+      "usageNote": "친구 사이 위로 표현으로 자주 쓰인다",
+      "pairKey": "dont_worry",
+      "contextTag": "위로",
+      "meanings": [
+        "걱정하지 마"
+      ],
+      "example": {
+        "ru": "Не переживай, всё решим.",
+        "ko": "걱정하지 마, 다 해결될 거야."
+      },
+      "difficulty": 1,
+      "tags": [
+        "comfort",
+        "support"
+      ],
+      "active": true
+    },
+    {
+      "id": "light-chat_playful_0017",
+      "categoryId": "light-chat",
+      "word": "Ты чего",
+      "stress": "Ты чего́?",
+      "transliteration": "ty chego",
+      "pronunciationKo": "뜨이 치보",
+      "partOfSpeech": "question",
+      "tone": "PLAYFUL",
+      "situationHint": "상대가 이상한 말이나 행동을 했을 때",
+      "usageNote": "핀잔보다는 가벼운 놀람에 가깝게 쓸 수 있다",
+      "pairKey": "what_with_you",
+      "contextTag": "반응",
+      "meanings": [
+        "왜 그래",
+        "너 왜 이래"
+      ],
+      "example": {
+        "ru": "Ты чего, я же пошутил.",
+        "ko": "왜 그래, 나 그냥 농담한 거야."
+      },
+      "difficulty": 2,
+      "tags": [
+        "reaction",
+        "teasing"
+      ],
+      "active": true
+    },
+    {
+      "id": "light-chat_casual_0018",
+      "categoryId": "light-chat",
+      "word": "Ну да",
+      "stress": "Ну да",
+      "transliteration": "nu da",
+      "pronunciationKo": "누 다",
+      "partOfSpeech": "phrase",
+      "tone": "CASUAL",
+      "situationHint": "상대 말에 수긍하거나 당연하다는 듯 답할 때",
+      "usageNote": "억양에 따라 진짜 동의 또는 살짝 빈정거림이 된다",
+      "pairKey": "yeah_right_neutral",
+      "contextTag": "동의",
+      "meanings": [
+        "그렇지",
+        "응 맞아"
+      ],
+      "example": {
+        "ru": "Ну да, именно об этом я и говорил.",
+        "ko": "응 맞아, 내가 바로 그 얘기한 거야."
+      },
+      "difficulty": 2,
+      "tags": [
+        "agreement",
+        "tone"
+      ],
+      "active": true
+    },
+    {
+      "id": "light-chat_casual_0019",
+      "categoryId": "light-chat",
+      "word": "Ну нет",
+      "stress": "Ну нет",
+      "transliteration": "nu net",
+      "pronunciationKo": "누 녯",
+      "partOfSpeech": "phrase",
+      "tone": "CASUAL",
+      "situationHint": "가볍게 부정하거나 못 믿겠을 때",
+      "usageNote": "강한 거절보다 부드럽게 끊는 느낌이다",
+      "pairKey": "oh_no",
+      "contextTag": "부정",
+      "meanings": [
+        "에이 아니지",
+        "설마 아니야"
+      ],
+      "example": {
+        "ru": "Ну нет, так не пойдёт.",
+        "ko": "에이 아니지, 그건 안 돼."
+      },
+      "difficulty": 2,
+      "tags": [
+        "negation",
+        "reaction"
+      ],
+      "active": true
+    },
+    {
+      "id": "light-chat_playful_0020",
+      "categoryId": "light-chat",
+      "word": "Смешно",
+      "stress": "Сме́шно",
+      "transliteration": "smeshno",
+      "pronunciationKo": "스메쉬나",
+      "partOfSpeech": "phrase",
+      "tone": "PLAYFUL",
+      "situationHint": "웃기다고 반응할 때",
+      "usageNote": "진짜 웃긴지 비꼬는지 억양에 따라 달라진다",
+      "pairKey": "funny_reaction",
+      "contextTag": "반응",
+      "meanings": [
+        "웃기다",
+        "재밌네"
+      ],
+      "example": {
+        "ru": "Смешно, но в этом есть правда.",
+        "ko": "웃기긴 한데 맞는 말이야."
+      },
+      "difficulty": 1,
+      "tags": [
+        "humor",
+        "reaction"
+      ],
+      "active": true
+    },
+    {
+      "id": "light-chat_casual_0021",
+      "categoryId": "light-chat",
+      "word": "Не знаю",
+      "stress": "Не зна́ю",
+      "transliteration": "ne znayu",
+      "pronunciationKo": "니 즈나유",
+      "partOfSpeech": "phrase",
+      "tone": "CASUAL",
+      "situationHint": "모르겠다고 할 때",
+      "usageNote": "짧고 기본적인 답변이지만 말투가 중요하다",
+      "pairKey": "dont_know",
+      "contextTag": "답변",
+      "meanings": [
+        "몰라",
+        "잘 모르겠어"
+      ],
+      "example": {
+        "ru": "Не знаю, давай посмотрим позже.",
+        "ko": "잘 모르겠어, 나중에 보자."
+      },
+      "difficulty": 1,
+      "tags": [
+        "answer",
+        "basic"
+      ],
+      "active": true
+    },
+    {
+      "id": "light-chat_casual_0022",
+      "categoryId": "light-chat",
+      "word": "Посмотрим",
+      "stress": "Посмо́трим",
+      "transliteration": "posmotrim",
+      "pronunciationKo": "빠스모뜨림",
+      "partOfSpeech": "phrase",
+      "tone": "CASUAL",
+      "situationHint": "두고 보자거나 상황을 보자는 뜻일 때",
+      "usageNote": "확답은 피하면서 가능성을 열어둔다",
+      "pairKey": "we_ll_see",
+      "contextTag": "답변",
+      "meanings": [
+        "봐야지",
+        "두고 보자"
+      ],
+      "example": {
+        "ru": "На выходных? Посмотрим.",
+        "ko": "주말에? 봐야지."
+      },
+      "difficulty": 1,
+      "tags": [
+        "answer",
+        "uncertain"
+      ],
+      "active": true
+    },
+    {
+      "id": "light-chat_casual_0023",
+      "categoryId": "light-chat",
+      "word": "Как скажешь",
+      "stress": "Как ска́жешь",
+      "transliteration": "kak skazhesh",
+      "pronunciationKo": "깍 스카제시",
+      "partOfSpeech": "phrase",
+      "tone": "CASUAL",
+      "situationHint": "상대 뜻에 맡길 때",
+      "usageNote": "상황에 따라 순응 또는 약간의 체념으로 들린다",
+      "pairKey": "as_you_say",
+      "contextTag": "응답",
+      "meanings": [
+        "네 말대로 해",
+        "원하는 대로"
+      ],
+      "example": {
+        "ru": "Как скажешь, я не спорю.",
+        "ko": "네 말대로 해, 난 더 안 따질게."
+      },
+      "difficulty": 2,
+      "tags": [
+        "reply",
+        "tone"
+      ],
+      "active": true
+    },
+    {
+      "id": "light-chat_playful_0024",
+      "categoryId": "light-chat",
+      "word": "Вот и всё",
+      "stress": "Вот и всё",
+      "transliteration": "vot i vsyo",
+      "pronunciationKo": "보티 프쇼",
+      "partOfSpeech": "phrase",
+      "tone": "PLAYFUL",
+      "situationHint": "결론을 가볍게 내릴 때",
+      "usageNote": "대화를 툭 마무리하는 느낌이 난다",
+      "pairKey": "thats_it",
+      "contextTag": "마무리",
+      "meanings": [
+        "그게 다야",
+        "끝"
+      ],
+      "example": {
+        "ru": "Сделали и ушли, вот и всё.",
+        "ko": "하고 나갔어, 그게 다야."
+      },
+      "difficulty": 2,
+      "tags": [
+        "closing",
+        "simple"
+      ],
+      "active": true
+    },
+    {
+      "id": "light-chat_casual_0025",
+      "categoryId": "light-chat",
+      "word": "На связи",
+      "stress": "На свя́зи",
+      "transliteration": "na svyazi",
+      "pronunciationKo": "나 스뱌지",
+      "partOfSpeech": "phrase",
+      "tone": "CASUAL",
+      "situationHint": "계속 연락 가능하다고 할 때",
+      "usageNote": "메신저 말투로 가볍고 현대적이다",
+      "pairKey": "stay_in_touch",
+      "contextTag": "연락",
+      "meanings": [
+        "연락 가능해",
+        "계속 연락하자"
+      ],
+      "example": {
+        "ru": "Я дома, если что, я на связи.",
+        "ko": "나 집이니까 무슨 일 있으면 연락해."
+      },
+      "difficulty": 2,
+      "tags": [
+        "chat",
+        "contact"
+      ],
+      "active": true
+    },
+    {
+      "id": "internet-slang_slang_0001",
+      "categoryId": "internet-slang",
+      "word": "лол",
+      "stress": "ло́л",
+      "transliteration": "lol",
+      "pronunciationKo": "롤",
+      "partOfSpeech": "interjection",
+      "tone": "SLANG",
+      "situationHint": "채팅에서 웃길 때 짧게 반응할 때",
+      "usageNote": "영어 lol에서 왔고 아주 가벼운 웃음으로 쓴다",
+      "pairKey": "lol_laugh",
+      "contextTag": "채팅반응",
+      "meanings": [
+        "ㅋㅋ",
+        "웃기네"
+      ],
+      "example": {
+        "ru": "Ты это серьёзно написал? лол",
+        "ko": "너 그걸 진심으로 쓴 거야? ㅋㅋ"
+      },
+      "difficulty": 1,
+      "tags": [
+        "chat",
+        "laugh"
+      ],
+      "active": true
+    },
+    {
+      "id": "internet-slang_slang_0002",
+      "categoryId": "internet-slang",
+      "word": "кринж",
+      "stress": "кринж",
+      "transliteration": "krinzh",
+      "pronunciationKo": "끄린쥐",
+      "partOfSpeech": "noun",
+      "tone": "SLANG",
+      "situationHint": "민망하고 오글거리는 상황을 말할 때",
+      "usageNote": "사람이나 행동, 콘텐츠 전반에 넓게 붙인다",
+      "pairKey": "cringe",
+      "contextTag": "인터넷반응",
+      "meanings": [
+        "오글거림",
+        "민망함"
+      ],
+      "example": {
+        "ru": "Этот ролик — полный кринж.",
+        "ko": "이 영상은 완전 오글거려."
+      },
+      "difficulty": 1,
+      "tags": [
+        "slang",
+        "reaction"
+      ],
+      "active": true
+    },
+    {
+      "id": "internet-slang_slang_0003",
+      "categoryId": "internet-slang",
+      "word": "жиза",
+      "stress": "жиза́",
+      "transliteration": "zhiza",
+      "pronunciationKo": "지자",
+      "partOfSpeech": "noun",
+      "tone": "SLANG",
+      "situationHint": "너무 공감될 때",
+      "usageNote": "'내 얘기네' 같은 강한 공감에 짧게 붙인다",
+      "pairKey": "relatable",
+      "contextTag": "공감",
+      "meanings": [
+        "완전 내 얘기",
+        "공감"
+      ],
+      "example": {
+        "ru": "Опять дедлайн ночью? Жиза.",
+        "ko": "또 밤샘 마감이야? 완전 내 얘기."
+      },
+      "difficulty": 2,
+      "tags": [
+        "slang",
+        "relatable"
+      ],
+      "active": true
+    },
+    {
+      "id": "internet-slang_slang_0004",
+      "categoryId": "internet-slang",
+      "word": "рофл",
+      "stress": "ро́фл",
+      "transliteration": "rofl",
+      "pronunciationKo": "로플",
+      "partOfSpeech": "noun",
+      "tone": "SLANG",
+      "situationHint": "장난이나 웃긴 상황을 말할 때",
+      "usageNote": "진지한 얘기가 아니라는 표시로도 쓴다",
+      "pairKey": "joke_lol",
+      "contextTag": "농담",
+      "meanings": [
+        "웃긴 상황",
+        "농담"
+      ],
+      "example": {
+        "ru": "Это был рофл, не обижайся.",
+        "ko": "그거 장난이었어, 서운해하지 마."
+      },
+      "difficulty": 1,
+      "tags": [
+        "slang",
+        "joke"
+      ],
+      "active": true
+    },
+    {
+      "id": "internet-slang_slang_0005",
+      "categoryId": "internet-slang",
+      "word": "ору",
+      "stress": "ору́",
+      "transliteration": "oru",
+      "pronunciationKo": "아루",
+      "partOfSpeech": "verb",
+      "tone": "SLANG",
+      "situationHint": "너무 웃겨서 터졌다는 느낌을 낼 때",
+      "usageNote": "직역은 소리친다지만 온라인에선 '빵 터짐'에 가깝다",
+      "pairKey": "im_dying_laughing",
+      "contextTag": "웃음",
+      "meanings": [
+        "빵 터짐",
+        "개웃겨"
+      ],
+      "example": {
+        "ru": "С этого мема я просто ору.",
+        "ko": "이 밈 보고 진짜 빵 터짐."
+      },
+      "difficulty": 2,
+      "tags": [
+        "slang",
+        "laugh"
+      ],
+      "active": true
+    },
+    {
+      "id": "internet-slang_slang_0006",
+      "categoryId": "internet-slang",
+      "word": "имба",
+      "stress": "и́мба",
+      "transliteration": "imba",
+      "pronunciationKo": "임바",
+      "partOfSpeech": "noun",
+      "tone": "SLANG",
+      "situationHint": "너무 강하거나 사기적인 요소를 말할 때",
+      "usageNote": "게임에서 왔지만 요즘은 좋은 물건에도 확장해서 쓴다",
+      "pairKey": "overpowered",
+      "contextTag": "게임",
+      "meanings": [
+        "사기급",
+        "너무 좋음"
+      ],
+      "example": {
+        "ru": "Этот навык вообще имба.",
+        "ko": "이 스킬은 진짜 사기급이야."
+      },
+      "difficulty": 2,
+      "tags": [
+        "gaming",
+        "slang"
+      ],
+      "active": true
+    },
+    {
+      "id": "internet-slang_slang_0007",
+      "categoryId": "internet-slang",
+      "word": "топ",
+      "stress": "топ",
+      "transliteration": "top",
+      "pronunciationKo": "톱",
+      "partOfSpeech": "adjective",
+      "tone": "SLANG",
+      "situationHint": "최고라고 칭찬할 때",
+      "usageNote": "짧고 가볍게 칭찬할 때 매우 흔하다",
+      "pairKey": "top_best",
+      "contextTag": "칭찬",
+      "meanings": [
+        "최고",
+        "짱"
+      ],
+      "example": {
+        "ru": "Кофе у вас сегодня топ.",
+        "ko": "오늘 여기 커피 진짜 최고다."
+      },
+      "difficulty": 1,
+      "tags": [
+        "praise",
+        "slang"
+      ],
+      "active": true
+    },
+    {
+      "id": "internet-slang_slang_0008",
+      "categoryId": "internet-slang",
+      "word": "вайб",
+      "stress": "вайб",
+      "transliteration": "vayb",
+      "pronunciationKo": "바이브",
+      "partOfSpeech": "noun",
+      "tone": "SLANG",
+      "situationHint": "분위기나 느낌을 말할 때",
+      "usageNote": "장소, 사람, 음악의 전체적인 무드를 가리킨다",
+      "pairKey": "vibe",
+      "contextTag": "분위기",
+      "meanings": [
+        "바이브",
+        "느낌"
+      ],
+      "example": {
+        "ru": "У этого места очень тёплый вайб.",
+        "ko": "이곳 분위기 진짜 따뜻하다."
+      },
+      "difficulty": 2,
+      "tags": [
+        "mood",
+        "slang"
+      ],
+      "active": true
+    },
+    {
+      "id": "internet-slang_slang_0009",
+      "categoryId": "internet-slang",
+      "word": "мемно",
+      "stress": "ме́мно",
+      "transliteration": "memno",
+      "pronunciationKo": "멤나",
+      "partOfSpeech": "adverb",
+      "tone": "SLANG",
+      "situationHint": "밈 같고 웃기다는 느낌을 말할 때",
+      "usageNote": "너무 진지하지 않은 인터넷식 칭찬/반응이다",
+      "pairKey": "meme_like",
+      "contextTag": "반응",
+      "meanings": [
+        "밈 같다",
+        "웃기게 재밌다"
+      ],
+      "example": {
+        "ru": "Ты это сказал так мемно.",
+        "ko": "너 그걸 너무 밈처럼 웃기게 말했다."
+      },
+      "difficulty": 2,
+      "tags": [
+        "meme",
+        "reaction"
+      ],
+      "active": true
+    },
+    {
+      "id": "internet-slang_slang_0010",
+      "categoryId": "internet-slang",
+      "word": "база",
+      "stress": "ба́за",
+      "transliteration": "baza",
+      "pronunciationKo": "바자",
+      "partOfSpeech": "noun",
+      "tone": "SLANG",
+      "situationHint": "핵심을 정확히 짚었다고 할 때",
+      "usageNote": "의견에 동의하며 '정답' 느낌으로 붙인다",
+      "pairKey": "based_truth",
+      "contextTag": "동의",
+      "meanings": [
+        "정론",
+        "맞는 말"
+      ],
+      "example": {
+        "ru": "Вот это база, тут не поспоришь.",
+        "ko": "이건 정론이지, 반박 못 해."
+      },
+      "difficulty": 2,
+      "tags": [
+        "opinion",
+        "slang"
+      ],
+      "active": true
+    },
+    {
+      "id": "internet-slang_slang_0011",
+      "categoryId": "internet-slang",
+      "word": "жесть",
+      "stress": "жесть",
+      "transliteration": "zhest",
+      "pronunciationKo": "제스찌",
+      "partOfSpeech": "noun",
+      "tone": "SLANG",
+      "situationHint": "상황이 너무 심하거나 충격적일 때",
+      "usageNote": "나쁨, 강함, 빡셈을 두루 가리키는 감탄사다",
+      "pairKey": "thats_harsh",
+      "contextTag": "충격",
+      "meanings": [
+        "와 심하다",
+        "빡세다"
+      ],
+      "example": {
+        "ru": "Три часа сна подряд? Жесть.",
+        "ko": "세 시간 연속 수면밖에 못 잤다고? 와 심하다."
+      },
+      "difficulty": 1,
+      "tags": [
+        "reaction",
+        "shock"
+      ],
+      "active": true
+    },
+    {
+      "id": "internet-slang_slang_0012",
+      "categoryId": "internet-slang",
+      "word": "кайф",
+      "stress": "кайф",
+      "transliteration": "kayf",
+      "pronunciationKo": "카이프",
+      "partOfSpeech": "noun",
+      "tone": "SLANG",
+      "situationHint": "너무 좋고 만족스러울 때",
+      "usageNote": "편안함과 즐거움이 함께 있는 느낌이다",
+      "pairKey": "bliss",
+      "contextTag": "좋음",
+      "meanings": [
+        "완전 좋다",
+        "개좋음"
+      ],
+      "example": {
+        "ru": "Сидеть у окна с дождём — кайф.",
+        "ko": "비 오는 날 창가에 앉아 있는 거 완전 좋다."
+      },
+      "difficulty": 1,
+      "tags": [
+        "positive",
+        "slang"
+      ],
+      "active": true
+    },
+    {
+      "id": "internet-slang_slang_0013",
+      "categoryId": "internet-slang",
+      "word": "угар",
+      "stress": "уга́р",
+      "transliteration": "ugar",
+      "pronunciationKo": "우가르",
+      "partOfSpeech": "noun",
+      "tone": "SLANG",
+      "situationHint": "미친 듯이 웃기거나 정신없는 재미를 말할 때",
+      "usageNote": "상황 전체가 웃겨 돌아간다는 느낌이 있다",
+      "pairKey": "crazy_fun",
+      "contextTag": "웃김",
+      "meanings": [
+        "개웃김",
+        "난장판 재미"
+      ],
+      "example": {
+        "ru": "У нас в чате вчера был полный угар.",
+        "ko": "어제 우리 단톡 완전 난장판으로 웃겼어."
+      },
+      "difficulty": 2,
+      "tags": [
+        "chat",
+        "fun"
+      ],
+      "active": true
+    },
+    {
+      "id": "internet-slang_slang_0014",
+      "categoryId": "internet-slang",
+      "word": "хейт",
+      "stress": "хейт",
+      "transliteration": "kheyt",
+      "pronunciationKo": "헤이트",
+      "partOfSpeech": "noun",
+      "tone": "SLANG",
+      "situationHint": "악플이나 비난 여론을 말할 때",
+      "usageNote": "온라인 반감이나 집단 비호감을 가리킬 때 쓴다",
+      "pairKey": "hate_comments",
+      "contextTag": "온라인",
+      "meanings": [
+        "악플",
+        "혐오 반응"
+      ],
+      "example": {
+        "ru": "Не читай хейт под видео.",
+        "ko": "영상 밑 악플은 읽지 마."
+      },
+      "difficulty": 2,
+      "tags": [
+        "internet",
+        "comments"
+      ],
+      "active": true
+    },
+    {
+      "id": "internet-slang_slang_0015",
+      "categoryId": "internet-slang",
+      "word": "зашквар",
+      "stress": "зашква́р",
+      "transliteration": "zashkvar",
+      "pronunciationKo": "자슈크바르",
+      "partOfSpeech": "noun",
+      "tone": "SLANG",
+      "situationHint": "너무 창피하거나 수준 떨어져 보이는 일을 말할 때",
+      "usageNote": "꽤 강한 부정 표현이라 가볍게 남용하지 않는 편이 좋다",
+      "pairKey": "embarrassing_fail",
+      "contextTag": "비하",
+      "meanings": [
+        "쪽팔림",
+        "촌스러움"
+      ],
+      "example": {
+        "ru": "Так отвечать на работе — это зашквар.",
+        "ko": "직장에서 그렇게 답하는 건 좀 쪽팔린다."
+      },
+      "difficulty": 3,
+      "tags": [
+        "slang",
+        "negative"
+      ],
+      "active": true
+    },
+    {
+      "id": "internet-slang_slang_0016",
+      "categoryId": "internet-slang",
+      "word": "изи",
+      "stress": "и́зи",
+      "transliteration": "izi",
+      "pronunciationKo": "이지",
+      "partOfSpeech": "adverb",
+      "tone": "SLANG",
+      "situationHint": "쉽게 해냈다고 말할 때",
+      "usageNote": "게임·채팅에서 가볍게 허세 섞인 톤으로도 쓴다",
+      "pairKey": "easy_mode",
+      "contextTag": "게임",
+      "meanings": [
+        "쉽지",
+        "식은 죽 먹기"
+      ],
+      "example": {
+        "ru": "Этот уровень? Изи.",
+        "ko": "이 레벨? 식은 죽 먹기지."
+      },
+      "difficulty": 2,
+      "tags": [
+        "gaming",
+        "boast"
+      ],
+      "active": true
+    },
+    {
+      "id": "internet-slang_slang_0017",
+      "categoryId": "internet-slang",
+      "word": "флексить",
+      "stress": "фле́ксить",
+      "transliteration": "fleksit",
+      "pronunciationKo": "플렉시찌",
+      "partOfSpeech": "verb",
+      "tone": "SLANG",
+      "situationHint": "자랑하거나 과시할 때",
+      "usageNote": "돈, 성과, 스타일을 드러내는 데 많이 쓴다",
+      "pairKey": "to_flex",
+      "contextTag": "과시",
+      "meanings": [
+        "플렉스하다",
+        "자랑하다"
+      ],
+      "example": {
+        "ru": "Он опять флексит новой техникой.",
+        "ko": "걔 또 새 장비 자랑하네."
+      },
+      "difficulty": 3,
+      "tags": [
+        "slang",
+        "showoff"
+      ],
+      "active": true
+    },
+    {
+      "id": "internet-slang_slang_0018",
+      "categoryId": "internet-slang",
+      "word": "токсичный",
+      "stress": "токси́чный",
+      "transliteration": "toksichnyy",
+      "pronunciationKo": "딱시치늬",
+      "partOfSpeech": "adjective",
+      "tone": "SLANG",
+      "situationHint": "사람이나 분위기가 해롭고 피곤할 때",
+      "usageNote": "원래 형용사지만 온라인에선 성격 평가로 자주 쓴다",
+      "pairKey": "toxic",
+      "contextTag": "관계",
+      "meanings": [
+        "독한",
+        "유해한"
+      ],
+      "example": {
+        "ru": "Этот чат стал слишком токсичный.",
+        "ko": "이 채팅방 분위기가 너무 유해해졌어."
+      },
+      "difficulty": 2,
+      "tags": [
+        "internet",
+        "relationship"
+      ],
+      "active": true
+    },
+    {
+      "id": "internet-slang_slang_0019",
+      "categoryId": "internet-slang",
+      "word": "залипать",
+      "stress": "залипа́ть",
+      "transliteration": "zalipat",
+      "pronunciationKo": "잘리팟",
+      "partOfSpeech": "verb",
+      "tone": "SLANG",
+      "situationHint": "한 콘텐츠에 빠져 계속 보게 될 때",
+      "usageNote": "영상, 게임, 음악에 멍하게 몰입하는 느낌이다",
+      "pairKey": "get_hooked",
+      "contextTag": "몰입",
+      "meanings": [
+        "빠져들다",
+        "멍하게 보다"
+      ],
+      "example": {
+        "ru": "Я залип на этих коротких видео.",
+        "ko": "나 이 쇼츠들에 계속 빠져 보고 있어."
+      },
+      "difficulty": 2,
+      "tags": [
+        "media",
+        "habit"
+      ],
+      "active": true
+    },
+    {
+      "id": "internet-slang_slang_0020",
+      "categoryId": "internet-slang",
+      "word": "внатуре",
+      "stress": "в нату́ре",
+      "transliteration": "v nature",
+      "pronunciationKo": "브 나뚜례",
+      "partOfSpeech": "adverb",
+      "tone": "SLANG",
+      "situationHint": "정말이냐고 강조하거나 놀랄 때",
+      "usageNote": "매우 구어적이라 격식 있는 자리엔 안 맞는다",
+      "pairKey": "for_real",
+      "contextTag": "강조",
+      "meanings": [
+        "진짜로",
+        "레알"
+      ],
+      "example": {
+        "ru": "Внатуре так дорого стало?",
+        "ko": "진짜 그렇게 비싸졌어?"
+      },
+      "difficulty": 3,
+      "tags": [
+        "street",
+        "slang"
+      ],
+      "active": true
+    },
+    {
+      "id": "internet-slang_slang_0021",
+      "categoryId": "internet-slang",
+      "word": "шипперить",
+      "stress": "ши́пперить",
+      "transliteration": "shipperit",
+      "pronunciationKo": "쉬삐리찌",
+      "partOfSpeech": "verb",
+      "tone": "SLANG",
+      "situationHint": "두 사람을 커플처럼 엮어 상상할 때",
+      "usageNote": "팬덤 문화에서 자주 보이는 표현이다",
+      "pairKey": "to_ship",
+      "contextTag": "팬덤",
+      "meanings": [
+        "커플로 밀다",
+        "엮다"
+      ],
+      "example": {
+        "ru": "Фанаты давно шипперят этих двоих.",
+        "ko": "팬들이 오래전부터 이 둘을 커플로 밀고 있어."
+      },
+      "difficulty": 3,
+      "tags": [
+        "fandom",
+        "slang"
+      ],
+      "active": true
+    },
+    {
+      "id": "internet-slang_slang_0022",
+      "categoryId": "internet-slang",
+      "word": "спойлер",
+      "stress": "спо́йлер",
+      "transliteration": "spoyler",
+      "pronunciationKo": "스뽀일러",
+      "partOfSpeech": "noun",
+      "tone": "SLANG",
+      "situationHint": "결말이나 중요한 내용을 미리 말하는 것",
+      "usageNote": "이미 일반어처럼 널리 퍼진 인터넷 표현이다",
+      "pairKey": "spoiler",
+      "contextTag": "콘텐츠",
+      "meanings": [
+        "스포일러"
+      ],
+      "example": {
+        "ru": "Без спойлеров, я ещё не смотрел.",
+        "ko": "스포 없이 해, 나 아직 안 봤어."
+      },
+      "difficulty": 1,
+      "tags": [
+        "media",
+        "warning"
+      ],
+      "active": true
+    },
+    {
+      "id": "internet-slang_slang_0023",
+      "categoryId": "internet-slang",
+      "word": "бан",
+      "stress": "бан",
+      "transliteration": "ban",
+      "pronunciationKo": "반",
+      "partOfSpeech": "noun",
+      "tone": "SLANG",
+      "situationHint": "계정 정지나 채팅 금지를 말할 때",
+      "usageNote": "플랫폼 규정 위반 맥락에서 흔하다",
+      "pairKey": "ban_restriction",
+      "contextTag": "플랫폼",
+      "meanings": [
+        "밴",
+        "정지"
+      ],
+      "example": {
+        "ru": "За такое можно словить бан.",
+        "ko": "그런 거 하면 계정 정지 먹을 수 있어."
+      },
+      "difficulty": 2,
+      "tags": [
+        "platform",
+        "rule"
+      ],
+      "active": true
+    },
+    {
+      "id": "internet-slang_slang_0024",
+      "categoryId": "internet-slang",
+      "word": "апнуть",
+      "stress": "а́пнуть",
+      "transliteration": "apnut",
+      "pronunciationKo": "압눝",
+      "partOfSpeech": "verb",
+      "tone": "SLANG",
+      "situationHint": "레벨이나 수치를 올릴 때",
+      "usageNote": "게임·커뮤니티에서 '올리다'의 캐주얼 표현이다",
+      "pairKey": "level_up_raise",
+      "contextTag": "게임",
+      "meanings": [
+        "올리다",
+        "업하다"
+      ],
+      "example": {
+        "ru": "Хочу апнуть рейтинг до вечера.",
+        "ko": "저녁 전까지 랭크 올리고 싶어."
+      },
+      "difficulty": 3,
+      "tags": [
+        "gaming",
+        "progress"
+      ],
+      "active": true
+    },
+    {
+      "id": "internet-slang_slang_0025",
+      "categoryId": "internet-slang",
+      "word": "донат",
+      "stress": "дона́т",
+      "transliteration": "donat",
+      "pronunciationKo": "더낫",
+      "partOfSpeech": "noun",
+      "tone": "SLANG",
+      "situationHint": "스트리머나 게임에 후원금을 넣는 것",
+      "usageNote": "온라인 문화에서 매우 흔한 단어가 됐다",
+      "pairKey": "donation_online",
+      "contextTag": "온라인결제",
+      "meanings": [
+        "후원",
+        "도네이션"
+      ],
+      "example": {
+        "ru": "Спасибо за донат в прямом эфире.",
+        "ko": "라이브에서 후원해줘서 고마워."
+      },
+      "difficulty": 2,
+      "tags": [
+        "stream",
+        "money"
+      ],
+      "active": true
+    },
+    {
+      "id": "situation_neutral_0001",
+      "categoryId": "situation",
+      "word": "Извините",
+      "stress": "Извини́те",
+      "transliteration": "izvinite",
+      "pronunciationKo": "이즈비니쩨",
+      "partOfSpeech": "phrase",
+      "tone": "NEUTRAL",
+      "situationHint": "가볍게 사과하거나 말을 걸 때",
+      "usageNote": "사과와 호출 둘 다 가능한 아주 기본 표현이다",
+      "pairKey": "excuse_me",
+      "contextTag": "예의",
+      "meanings": [
+        "실례합니다",
+        "죄송합니다"
+      ],
+      "example": {
+        "ru": "Извините, это место свободно?",
+        "ko": "실례합니다, 이 자리 비었나요?"
+      },
+      "difficulty": 1,
+      "tags": [
+        "polite",
+        "basic"
+      ],
+      "active": true
+    },
+    {
+      "id": "situation_neutral_0002",
+      "categoryId": "situation",
+      "word": "Помогите, пожалуйста",
+      "stress": "Помоги́те, пожа́луйста",
+      "transliteration": "pomogite pozhaluysta",
+      "pronunciationKo": "빠마기쩨 빠좔러스따",
+      "partOfSpeech": "phrase",
+      "tone": "NEUTRAL",
+      "situationHint": "도움이 필요할 때",
+      "usageNote": "정중하고 직접적인 요청이라 위급하지 않은 상황에도 널리 쓴다",
+      "pairKey": "please_help",
+      "contextTag": "도움",
+      "meanings": [
+        "도와주세요"
+      ],
+      "example": {
+        "ru": "Помогите, пожалуйста, я не могу найти адрес.",
+        "ko": "도와주세요, 주소를 못 찾겠어요."
+      },
+      "difficulty": 1,
+      "tags": [
+        "help",
+        "request"
+      ],
+      "active": true
+    },
+    {
+      "id": "situation_neutral_0003",
+      "categoryId": "situation",
+      "word": "Я не понимаю",
+      "stress": "Я не понима́ю",
+      "transliteration": "ya ne ponimayu",
+      "pronunciationKo": "야 니 빠니마유",
+      "partOfSpeech": "phrase",
+      "tone": "NEUTRAL",
+      "situationHint": "말을 못 알아들었을 때",
+      "usageNote": "솔직하고 기본적인 이해 불가 표현이다",
+      "pairKey": "dont_understand",
+      "contextTag": "이해",
+      "meanings": [
+        "이해가 안 돼요",
+        "잘 모르겠어요"
+      ],
+      "example": {
+        "ru": "Я не понимаю, можете объяснить проще?",
+        "ko": "이해가 안 되는데 더 쉽게 설명해주실 수 있나요?"
+      },
+      "difficulty": 1,
+      "tags": [
+        "language",
+        "basic"
+      ],
+      "active": true
+    },
+    {
+      "id": "situation_neutral_0004",
+      "categoryId": "situation",
+      "word": "Повторите, пожалуйста",
+      "stress": "Повтори́те, пожа́луйста",
+      "transliteration": "povtorite pozhaluysta",
+      "pronunciationKo": "빠프따리쩨 빠좔러스따",
+      "partOfSpeech": "phrase",
+      "tone": "NEUTRAL",
+      "situationHint": "한 번 더 말해 달라고 할 때",
+      "usageNote": "정중하고 실용적인 필수 표현이다",
+      "pairKey": "repeat_please",
+      "contextTag": "언어",
+      "meanings": [
+        "다시 말씀해 주세요"
+      ],
+      "example": {
+        "ru": "Повторите, пожалуйста, я не расслышал.",
+        "ko": "잘 못 들어서 다시 말씀해 주세요."
+      },
+      "difficulty": 1,
+      "tags": [
+        "language",
+        "request"
+      ],
+      "active": true
+    },
+    {
+      "id": "situation_neutral_0005",
+      "categoryId": "situation",
+      "word": "Говорите медленнее",
+      "stress": "Говори́те ме́дленнее",
+      "transliteration": "govorite medlennee",
+      "pronunciationKo": "가바리쩨 메들렌녜",
+      "partOfSpeech": "phrase",
+      "tone": "NEUTRAL",
+      "situationHint": "상대에게 천천히 말해달라고 할 때",
+      "usageNote": "학습자에게 특히 유용한 요청 표현이다",
+      "pairKey": "speak_slower",
+      "contextTag": "언어",
+      "meanings": [
+        "천천히 말씀해 주세요"
+      ],
+      "example": {
+        "ru": "Пожалуйста, говорите медленнее.",
+        "ko": "부탁드려요, 조금 천천히 말씀해 주세요."
+      },
+      "difficulty": 1,
+      "tags": [
+        "language",
+        "learning"
+      ],
+      "active": true
+    },
+    {
+      "id": "situation_neutral_0006",
+      "categoryId": "situation",
+      "word": "Где это?",
+      "stress": "Где э́то?",
+      "transliteration": "gde eto",
+      "pronunciationKo": "그데 에따",
+      "partOfSpeech": "question",
+      "tone": "NEUTRAL",
+      "situationHint": "무언가의 위치를 물을 때",
+      "usageNote": "간단하지만 현장에서 바로 쓸 수 있다",
+      "pairKey": "where_is_it",
+      "contextTag": "위치",
+      "meanings": [
+        "이거 어디에요?"
+      ],
+      "example": {
+        "ru": "Где это на карте?",
+        "ko": "이거 지도에서 어디예요?"
+      },
+      "difficulty": 1,
+      "tags": [
+        "location",
+        "question"
+      ],
+      "active": true
+    },
+    {
+      "id": "situation_neutral_0007",
+      "categoryId": "situation",
+      "word": "Где туалет?",
+      "stress": "Где туале́т?",
+      "transliteration": "gde tualet",
+      "pronunciationKo": "그데 뚜알레뜨",
+      "partOfSpeech": "question",
+      "tone": "NEUTRAL",
+      "situationHint": "화장실 위치를 물을 때",
+      "usageNote": "여행·외출에서 꼭 필요한 기본 표현이다",
+      "pairKey": "where_toilet",
+      "contextTag": "편의",
+      "meanings": [
+        "화장실 어디예요?"
+      ],
+      "example": {
+        "ru": "Извините, где туалет?",
+        "ko": "실례합니다, 화장실 어디예요?"
+      },
+      "difficulty": 1,
+      "tags": [
+        "travel",
+        "basic"
+      ],
+      "active": true
+    },
+    {
+      "id": "situation_neutral_0008",
+      "categoryId": "situation",
+      "word": "Сколько стоит?",
+      "stress": "Ско́лько сто́ит?",
+      "transliteration": "skolko stoit",
+      "pronunciationKo": "스꼴카 스또잇",
+      "partOfSpeech": "question",
+      "tone": "NEUTRAL",
+      "situationHint": "가격을 물을 때",
+      "usageNote": "시장, 상점, 앱 거래 모두에 쓸 수 있다",
+      "pairKey": "how_much",
+      "contextTag": "쇼핑",
+      "meanings": [
+        "얼마예요?"
+      ],
+      "example": {
+        "ru": "Сколько стоит эта книга?",
+        "ko": "이 책 얼마예요?"
+      },
+      "difficulty": 1,
+      "tags": [
+        "shopping",
+        "price"
+      ],
+      "active": true
+    },
+    {
+      "id": "situation_neutral_0009",
+      "categoryId": "situation",
+      "word": "Можно оплатить картой?",
+      "stress": "Мо́жно оплати́ть ка́ртой?",
+      "transliteration": "mozhno oplatit kartoy",
+      "pronunciationKo": "모쥬나 아쁠라띠찌 까르따이",
+      "partOfSpeech": "question",
+      "tone": "NEUTRAL",
+      "situationHint": "카드 결제가 되는지 물을 때",
+      "usageNote": "현대적인 결제 상황에서 매우 실용적이다",
+      "pairKey": "pay_by_card",
+      "contextTag": "결제",
+      "meanings": [
+        "카드로 결제돼요?"
+      ],
+      "example": {
+        "ru": "Можно оплатить картой или только наличными?",
+        "ko": "카드로 결제돼요, 아니면 현금만 되나요?"
+      },
+      "difficulty": 2,
+      "tags": [
+        "shopping",
+        "payment"
+      ],
+      "active": true
+    },
+    {
+      "id": "situation_neutral_0010",
+      "categoryId": "situation",
+      "word": "У меня нет наличных",
+      "stress": "У меня́ нет нали́чных",
+      "transliteration": "u menya net nalichnyh",
+      "pronunciationKo": "우 미냐 넷 날리츠늬흐",
+      "partOfSpeech": "phrase",
+      "tone": "NEUTRAL",
+      "situationHint": "현금이 없다고 말할 때",
+      "usageNote": "카드 결제 문의와 함께 자주 나온다",
+      "pairKey": "no_cash",
+      "contextTag": "결제",
+      "meanings": [
+        "현금이 없어요"
+      ],
+      "example": {
+        "ru": "У меня нет наличных, можно переводом?",
+        "ko": "현금이 없는데 계좌이체 가능할까요?"
+      },
+      "difficulty": 2,
+      "tags": [
+        "payment",
+        "money"
+      ],
+      "active": true
+    },
+    {
+      "id": "situation_neutral_0011",
+      "categoryId": "situation",
+      "word": "Подождите минуту",
+      "stress": "Подожди́те мину́ту",
+      "transliteration": "podozhdite minutu",
+      "pronunciationKo": "빠다쥐쩨 미누뚜",
+      "partOfSpeech": "phrase",
+      "tone": "NEUTRAL",
+      "situationHint": "잠깐만 기다려 달라고 할 때",
+      "usageNote": "예의 바르면서도 간단해 활용도가 높다",
+      "pairKey": "wait_a_minute",
+      "contextTag": "대기",
+      "meanings": [
+        "잠깐만 기다려 주세요"
+      ],
+      "example": {
+        "ru": "Подождите минуту, я сейчас вернусь.",
+        "ko": "잠깐만 기다려 주세요, 금방 돌아올게요."
+      },
+      "difficulty": 1,
+      "tags": [
+        "wait",
+        "basic"
+      ],
+      "active": true
+    },
+    {
+      "id": "situation_neutral_0012",
+      "categoryId": "situation",
+      "word": "Мне нужен интернет",
+      "stress": "Мне ну́жен интерне́т",
+      "transliteration": "mne nuzhen internet",
+      "pronunciationKo": "므녜 누젠 인떠르녯",
+      "partOfSpeech": "phrase",
+      "tone": "NEUTRAL",
+      "situationHint": "와이파이나 인터넷이 필요할 때",
+      "usageNote": "카페, 호텔, 공항에서 특히 유용하다",
+      "pairKey": "need_internet",
+      "contextTag": "편의",
+      "meanings": [
+        "인터넷이 필요해요"
+      ],
+      "example": {
+        "ru": "Мне нужен интернет для перевода.",
+        "ko": "번역하려면 인터넷이 필요해요."
+      },
+      "difficulty": 2,
+      "tags": [
+        "internet",
+        "travel"
+      ],
+      "active": true
+    },
+    {
+      "id": "situation_neutral_0013",
+      "categoryId": "situation",
+      "word": "Есть Wi‑Fi?",
+      "stress": "Есть Wi‑Fi?",
+      "transliteration": "yest wifi",
+      "pronunciationKo": "예스뜨 와이파이",
+      "partOfSpeech": "question",
+      "tone": "NEUTRAL",
+      "situationHint": "와이파이 유무를 물을 때",
+      "usageNote": "러시아어 문장에 영어 약어를 그대로 자주 쓴다",
+      "pairKey": "is_there_wifi",
+      "contextTag": "편의",
+      "meanings": [
+        "와이파이 있어요?"
+      ],
+      "example": {
+        "ru": "У вас есть Wi‑Fi?",
+        "ko": "여기 와이파이 있어요?"
+      },
+      "difficulty": 1,
+      "tags": [
+        "wifi",
+        "question"
+      ],
+      "active": true
+    },
+    {
+      "id": "situation_neutral_0014",
+      "categoryId": "situation",
+      "word": "Я заблудился",
+      "stress": "Я заблуди́лся",
+      "transliteration": "ya zabludilsya",
+      "pronunciationKo": "야 자블루딜샤",
+      "partOfSpeech": "phrase",
+      "tone": "NEUTRAL",
+      "situationHint": "길을 잃었을 때",
+      "usageNote": "도움 요청과 함께 쓰면 효과적이다",
+      "pairKey": "im_lost",
+      "contextTag": "길찾기",
+      "meanings": [
+        "길을 잃었어요"
+      ],
+      "example": {
+        "ru": "Я заблудился, как пройти к метро?",
+        "ko": "길을 잃었는데 지하철역까지 어떻게 가나요?"
+      },
+      "difficulty": 2,
+      "tags": [
+        "travel",
+        "help"
+      ],
+      "active": true
+    },
+    {
+      "id": "situation_neutral_0015",
+      "categoryId": "situation",
+      "word": "Как пройти к метро?",
+      "stress": "Как пройти́ к метро́?",
+      "transliteration": "kak proyti k metro",
+      "pronunciationKo": "깍 쁘라이띠 끄 메뜨로",
+      "partOfSpeech": "question",
+      "tone": "NEUTRAL",
+      "situationHint": "길을 물을 때",
+      "usageNote": "대중교통 이동에서 가장 실용적인 질문 중 하나다",
+      "pairKey": "how_to_get_metro",
+      "contextTag": "길찾기",
+      "meanings": [
+        "지하철역 어떻게 가요?"
+      ],
+      "example": {
+        "ru": "Извините, как пройти к метро?",
+        "ko": "실례합니다, 지하철역 어떻게 가요?"
+      },
+      "difficulty": 2,
+      "tags": [
+        "direction",
+        "transport"
+      ],
+      "active": true
+    },
+    {
+      "id": "situation_neutral_0016",
+      "categoryId": "situation",
+      "word": "Мне нужна вода",
+      "stress": "Мне нужна́ вода́",
+      "transliteration": "mne nuzhna voda",
+      "pronunciationKo": "므녜 누즈나 바다",
+      "partOfSpeech": "phrase",
+      "tone": "NEUTRAL",
+      "situationHint": "물을 원하거나 필요로 할 때",
+      "usageNote": "식당, 약국, 더운 날씨 상황 등에서 쓸 수 있다",
+      "pairKey": "need_water",
+      "contextTag": "기본필요",
+      "meanings": [
+        "물이 필요해요"
+      ],
+      "example": {
+        "ru": "Мне нужна вода без газа.",
+        "ko": "탄산 없는 물이 필요해요."
+      },
+      "difficulty": 1,
+      "tags": [
+        "food",
+        "need"
+      ],
+      "active": true
+    },
+    {
+      "id": "situation_neutral_0017",
+      "categoryId": "situation",
+      "word": "Можно меню?",
+      "stress": "Мо́жно меню́?",
+      "transliteration": "mozhno menyu",
+      "pronunciationKo": "모쥬나 메뉴",
+      "partOfSpeech": "question",
+      "tone": "NEUTRAL",
+      "situationHint": "식당에서 메뉴판을 요청할 때",
+      "usageNote": "짧고 바로 통하는 표현이다",
+      "pairKey": "menu_please",
+      "contextTag": "식당",
+      "meanings": [
+        "메뉴판 주세요"
+      ],
+      "example": {
+        "ru": "Здравствуйте, можно меню?",
+        "ko": "안녕하세요, 메뉴판 주세요."
+      },
+      "difficulty": 1,
+      "tags": [
+        "restaurant",
+        "basic"
+      ],
+      "active": true
+    },
+    {
+      "id": "situation_neutral_0018",
+      "categoryId": "situation",
+      "word": "Без мяса, пожалуйста",
+      "stress": "Без мя́са, пожа́луйста",
+      "transliteration": "bez myasa pozhaluysta",
+      "pronunciationKo": "베즈 먀사 빠좔러스따",
+      "partOfSpeech": "phrase",
+      "tone": "NEUTRAL",
+      "situationHint": "고기 없는 음식을 요청할 때",
+      "usageNote": "식단 제한이나 기호를 전할 때 유용하다",
+      "pairKey": "no_meat",
+      "contextTag": "식당",
+      "meanings": [
+        "고기 빼고 주세요"
+      ],
+      "example": {
+        "ru": "Мне салат без мяса, пожалуйста.",
+        "ko": "샐러드는 고기 빼고 주세요."
+      },
+      "difficulty": 2,
+      "tags": [
+        "food",
+        "request"
+      ],
+      "active": true
+    },
+    {
+      "id": "situation_neutral_0019",
+      "categoryId": "situation",
+      "word": "Можно счёт?",
+      "stress": "Мо́жно счёт?",
+      "transliteration": "mozhno schyot",
+      "pronunciationKo": "모쥬나 쇼뜨",
+      "partOfSpeech": "question",
+      "tone": "NEUTRAL",
+      "situationHint": "식당에서 계산서를 요청할 때",
+      "usageNote": "아주 흔한 실전 표현이다",
+      "pairKey": "bill_please",
+      "contextTag": "식당",
+      "meanings": [
+        "계산서 주세요"
+      ],
+      "example": {
+        "ru": "Можно счёт, пожалуйста?",
+        "ko": "계산서 부탁드려요."
+      },
+      "difficulty": 1,
+      "tags": [
+        "restaurant",
+        "payment"
+      ],
+      "active": true
+    },
+    {
+      "id": "situation_neutral_0020",
+      "categoryId": "situation",
+      "word": "Мне плохо",
+      "stress": "Мне пло́хо",
+      "transliteration": "mne ploho",
+      "pronunciationKo": "므녜 쁠로하",
+      "partOfSpeech": "phrase",
+      "tone": "NEUTRAL",
+      "situationHint": "몸 상태가 안 좋을 때",
+      "usageNote": "가벼운 어지럼부터 컨디션 난조까지 넓게 쓴다",
+      "pairKey": "feel_unwell",
+      "contextTag": "건강",
+      "meanings": [
+        "몸이 안 좋아요",
+        "속이 안 좋아요"
+      ],
+      "example": {
+        "ru": "Мне плохо, можно присесть?",
+        "ko": "몸이 안 좋은데 잠깐 앉아도 될까요?"
+      },
+      "difficulty": 2,
+      "tags": [
+        "health",
+        "need"
+      ],
+      "active": true
+    },
+    {
+      "id": "situation_neutral_0021",
+      "categoryId": "situation",
+      "word": "Нужен врач",
+      "stress": "Ну́жен врач",
+      "transliteration": "nuzhen vrach",
+      "pronunciationKo": "누젠 브라치",
+      "partOfSpeech": "phrase",
+      "tone": "NEUTRAL",
+      "situationHint": "의사가 필요할 때",
+      "usageNote": "다급한 상황에서도 짧게 전달하기 좋다",
+      "pairKey": "need_doctor",
+      "contextTag": "응급",
+      "meanings": [
+        "의사가 필요해요"
+      ],
+      "example": {
+        "ru": "Кажется, нужен врач.",
+        "ko": "아무래도 의사가 필요해요."
+      },
+      "difficulty": 2,
+      "tags": [
+        "health",
+        "urgent"
+      ],
+      "active": true
+    },
+    {
+      "id": "situation_neutral_0022",
+      "categoryId": "situation",
+      "word": "Вызовите такси, пожалуйста",
+      "stress": "Вы́зовите такси́, пожа́луйста",
+      "transliteration": "vyzovite taksi pozhaluysta",
+      "pronunciationKo": "뷔저비쩨 딱시 빠좔러스따",
+      "partOfSpeech": "phrase",
+      "tone": "NEUTRAL",
+      "situationHint": "택시를 불러 달라고 요청할 때",
+      "usageNote": "호텔, 식당, 행사장에서 많이 쓴다",
+      "pairKey": "call_taxi",
+      "contextTag": "이동",
+      "meanings": [
+        "택시 불러 주세요"
+      ],
+      "example": {
+        "ru": "Вызовите такси, пожалуйста, до центра.",
+        "ko": "중심가까지 택시 불러 주세요."
+      },
+      "difficulty": 2,
+      "tags": [
+        "transport",
+        "request"
+      ],
+      "active": true
+    },
+    {
+      "id": "situation_neutral_0023",
+      "categoryId": "situation",
+      "word": "Зарядка есть?",
+      "stress": "Заря́дка есть?",
+      "transliteration": "zaryadka yest",
+      "pronunciationKo": "자리앗까 예스뜨",
+      "partOfSpeech": "question",
+      "tone": "NEUTRAL",
+      "situationHint": "충전기 유무를 물을 때",
+      "usageNote": "휴대폰 배터리가 없을 때 매우 실용적이다",
+      "pairKey": "charger_available",
+      "contextTag": "기기",
+      "meanings": [
+        "충전기 있어요?"
+      ],
+      "example": {
+        "ru": "У кого-нибудь зарядка есть?",
+        "ko": "누구 충전기 있어요?"
+      },
+      "difficulty": 2,
+      "tags": [
+        "device",
+        "question"
+      ],
+      "active": true
+    },
+    {
+      "id": "situation_neutral_0024",
+      "categoryId": "situation",
+      "word": "У меня сел телефон",
+      "stress": "У меня́ сел телефо́н",
+      "transliteration": "u menya sel telefon",
+      "pronunciationKo": "우 미냐 셀 띨레폰",
+      "partOfSpeech": "phrase",
+      "tone": "NEUTRAL",
+      "situationHint": "휴대폰 배터리가 다 됐다고 말할 때",
+      "usageNote": "러시아어에서는 배터리가 '앉았다'고 표현한다",
+      "pairKey": "phone_dead",
+      "contextTag": "기기",
+      "meanings": [
+        "휴대폰 배터리가 다 됐어요"
+      ],
+      "example": {
+        "ru": "Извини, у меня сел телефон.",
+        "ko": "미안, 휴대폰 배터리가 다 됐어."
+      },
+      "difficulty": 2,
+      "tags": [
+        "device",
+        "battery"
+      ],
+      "active": true
+    },
+    {
+      "id": "situation_neutral_0025",
+      "categoryId": "situation",
+      "word": "Я опаздываю",
+      "stress": "Я опа́здываю",
+      "transliteration": "ya opazdyvayu",
+      "pronunciationKo": "야 아빠즈드바유",
+      "partOfSpeech": "phrase",
+      "tone": "NEUTRAL",
+      "situationHint": "약속에 늦는다고 알릴 때",
+      "usageNote": "미리 말하면 훨씬 덜 무례하게 들린다",
+      "pairKey": "running_late",
+      "contextTag": "약속",
+      "meanings": [
+        "늦고 있어요",
+        "지각할 것 같아요"
+      ],
+      "example": {
+        "ru": "Я опаздываю минут на десять.",
+        "ko": "한 10분 정도 늦을 것 같아요."
+      },
+      "difficulty": 1,
+      "tags": [
+        "appointment",
+        "status"
+      ],
+      "active": true
+    }
+  ]
+}
