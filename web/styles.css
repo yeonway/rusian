@@ -353,6 +353,13 @@ button:disabled {
   text-align: center;
 }
 
+.letter-name {
+  color: var(--muted);
+  font-size: 12px;
+  line-height: 1.2;
+  text-align: center;
+}
+
 .study-card {
   display: grid;
   min-height: 430px;

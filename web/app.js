@@ -44,6 +44,23 @@ const russianLetterSpeech = {
   ya: "я",
 };
 
+let preferredRussianVoice = null;
+
+function refreshRussianVoice() {
+  if (!window.speechSynthesis) return null;
+  const voices = window.speechSynthesis.getVoices();
+  preferredRussianVoice =
+    voices.find((voice) => voice.lang?.toLowerCase().startsWith("ru")) ||
+    voices.find((voice) => voice.name?.toLowerCase().includes("russian")) ||
+    null;
+  return preferredRussianVoice;
+}
+
+if (window.speechSynthesis) {
+  window.speechSynthesis.onvoiceschanged = refreshRussianVoice;
+  refreshRussianVoice();
+}
+
 const defaultState = {
   route: "quiz",
   theme: "system",
@@ -177,7 +194,7 @@ function renderAlphabet() {
       <header class="screen-header">
         <div>
           <h1>알파벳 감각 익히기</h1>
-          <p>러시아 문자를 누르면 발음을 들을 수 있습니다.</p>
+          <p>러시아 문자를 누르면 브라우저 러시아어 음성으로 글자 이름을 읽습니다.</p>
         </div>
         <button type="button" class="button-secondary" data-quiz-alpha>알파벳 퀴즈</button>
       </header>
@@ -202,6 +219,7 @@ function renderLetterTile(letter, isWeak) {
     <button type="button" class="letter-tile ${isWeak ? "is-weak" : ""}" data-letter="${letter.id}">
       <span class="letter-main">${letter.uppercase} ${letter.lowercase}</span>
       <span class="letter-hint">${escapeHtml(letter.pronunciationHint || letter.nameKo || letter.romanization || "")}</span>
+      <span class="letter-name">${escapeHtml(letter.nameKo || "")}</span>
     </button>
   `;
 }
@@ -471,7 +489,7 @@ function bindEvents() {
 
   document.querySelector("[data-quiz-alpha]")?.addEventListener("click", () => {
     const first = data.alphabet[0];
-    if (first) speak(first.uppercase, "ru-RU");
+    if (first) speakLetter(first.id);
   });
 
   document.querySelector("[data-category-select]")?.addEventListener("change", (event) => {
@@ -618,6 +636,13 @@ function speak(text, lang) {
   if (!window.speechSynthesis) return;
   const utterance = new SpeechSynthesisUtterance(text);
   utterance.lang = lang;
+  const voice = lang.toLowerCase().startsWith("ru") ? refreshRussianVoice() : null;
+  if (voice) {
+    utterance.voice = voice;
+    utterance.lang = voice.lang;
+  }
+  utterance.rate = 0.78;
+  utterance.pitch = 1;
   window.speechSynthesis.cancel();
   window.speechSynthesis.speak(utterance);
 }
